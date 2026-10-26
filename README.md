@@ -1,6 +1,6 @@
 # Falcon Admin Platform
 
-Aplicação full-stack multiusuário para treinamento interno de CrowdStrike Falcon Administrator. A nova aplicação fica isolada em `falcon-admin-platform/`; o HTML offline original foi preservado em `outputs/` e teve o plano fixo de sete dias removido.
+Aplicação full-stack multiusuário para treinamento interno nas certificações CrowdStrike. O código da plataforma está na raiz deste repositório. O antigo `index.html` foi mantido apenas como versão estática legada; ele não usa o backend nem compartilha o banco desta aplicação.
 
 ## O que está incluído
 
@@ -24,10 +24,11 @@ Não há conteúdo copiado de dumps. O link de terceiro é somente referência, 
 
 Pré-requisitos: Git, Docker Desktop/Engine e Docker Compose v2.
 
-No computador Windows deste projeto, leia primeiro [`DOCKER-WSL-SEGURO.md`](./DOCKER-WSL-SEGURO.md): o diagnóstico encontrou somente 18 GB livres e o instalador protegido aborta até haver uma margem segura.
+No Windows, consulte [`DOCKER-WSL-SEGURO.md`](./DOCKER-WSL-SEGURO.md) antes de instalar Docker/WSL.
 
 ```bash
 cd falcon-admin-platform
+# Preencha um .env privado com senhas fortes; nunca o envie ao Git.
 cp .env.example .env
 docker compose up --build
 ```
@@ -245,4 +246,8 @@ O teste visual reproduzível está em `tests/e2e-visual.mjs`; ele requer Playwri
 - logs centralizados com redação e retenção definida;
 - backups automáticos, PITR e teste periódico de restauração.
 
-GitHub Pages não executa backend/PostgreSQL e, portanto, serve apenas para a versão estática antiga. Para compartilhar a versão multiusuário, implante o container em Render/Fly.io/Azure/AWS/Google Cloud ou similar e conecte PostgreSQL + storage privados. Nunca publique os documentos autenticados no repositório.
+GitHub Pages não executa backend/PostgreSQL. Para compartilhar a versão multiusuário, implante a aplicação em infraestrutura com API, PostgreSQL e armazenamento privados. A mudança deste repositório para privado pode interromper uma publicação antiga do GitHub Pages. Nunca publique documentos autenticados, credenciais ou dados do tenant no repositório.
+
+## Versão estática legada
+
+O `index.html` anterior foi preservado para consulta histórica. Ele mantém dados apenas no navegador e não representa a plataforma multiusuário atual. Para executar a aplicação atual, use os comandos acima e acesse o endereço local da API.
