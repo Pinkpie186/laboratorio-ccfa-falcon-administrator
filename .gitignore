@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+storage/
+backups/
+coverage/
+tmp/
+test-artifacts/
+data/*report.json
+*.log
+.DS_Store
