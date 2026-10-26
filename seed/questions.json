@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "q1",
+    "domain": "Gestão de usuários",
+    "difficulty": "Fácil",
+    "prompt": "Uma analista precisa apenas consultar configurações administrativas. Qual princípio deve orientar a atribuição de acesso?",
+    "options": [
+      "Conceder a função administrativa mais ampla",
+      "Aplicar menor privilégio conforme as tarefas",
+      "Compartilhar uma conta da equipe",
+      "Criar um cliente de API para login humano"
+    ],
+    "answer": 1,
+    "explanation": "A função deve conter somente as permissões necessárias. Contas compartilhadas prejudicam atribuição e auditoria.",
+    "source": "exam"
+  },
+  {
+    "id": "q2",
+    "domain": "Gestão de usuários",
+    "difficulty": "Intermediária",
+    "prompt": "Um usuário mudou de função e não deve mais alterar políticas. Qual é a primeira ação administrativa adequada?",
+    "options": [
+      "Excluir todos os logs antigos",
+      "Revisar e remover as funções que concedem escrita",
+      "Desinstalar sensores usados pelo usuário",
+      "Desabilitar detecções nos hosts"
+    ],
+    "answer": 1,
+    "explanation": "Revogue a autorização que deixou de ser necessária e valide o acesso efetivo. A mudança não exige alterar sensores ou telemetria.",
+    "source": "exam"
+  },
+  {
+    "id": "q3",
+    "domain": "Gestão de usuários",
+    "difficulty": "Difícil",
+    "prompt": "Uma integração externa precisa somente ler inventário de hosts. Como reduzir o risco?",
+    "options": [
+      "Cliente dedicado com apenas os escopos de leitura exigidos",
+      "Cliente compartilhado com todos os escopos",
+      "Token inserido no JavaScript do portal",
+      "Credenciais de um administrador humano"
+    ],
+    "answer": 0,
+    "explanation": "Use um cliente dedicado e menor privilégio. Segredos pertencem ao backend ou a um cofre, nunca ao frontend.",
+    "source": "api"
+  },
+  {
+    "id": "q4",
+    "domain": "Gestão de usuários",
+    "difficulty": "Fácil",
+    "prompt": "Qual informação nunca deve ser armazenada neste laboratório offline?",
+    "options": [
+      "Percentual de acertos",
+      "Domínio da questão",
+      "Client Secret do Falcon",
+      "Estado do tema"
+    ],
+    "answer": 2,
+    "explanation": "Client Secret, tokens, CID e dados do tenant não são necessários para estudar e não devem ser registrados.",
+    "source": "exam"
+  },
+  {
+    "id": "q5",
+    "domain": "Gestão de usuários",
+    "difficulty": "Intermediária",
+    "prompt": "Por que separar contas humanas de clientes de API?",
+    "options": [
+      "Para que sensores atualizem mais rápido",
+      "Para distinguir identidade, finalidade e auditoria",
+      "Para eliminar a necessidade de escopos",
+      "Para permitir segredos no navegador"
+    ],
+    "answer": 1,
+    "explanation": "Identidades separadas tornam a finalidade e a trilha de auditoria claras e permitem revogação independente.",
+    "source": "oauth"
+  },
+  {
+    "id": "q6",
+    "domain": "Gestão de usuários",
+    "difficulty": "Difícil",
+    "prompt": "Ao revisar acesso, você encontra um cliente de API sem proprietário e com escrita ampla. Qual sequência é mais segura?",
+    "options": [
+      "Publicar o segredo para localizar o dono",
+      "Confirmar dependências, rotacionar/revogar e recriar com menor escopo",
+      "Ignorar porque não é uma conta humana",
+      "Adicionar ainda mais escopos antes de testar"
+    ],
+    "answer": 1,
+    "explanation": "Mapeie o uso com evidência de auditoria, coordene a mudança e reduza escopos. Nunca exponha o segredo.",
+    "source": "exam"
+  },
+  {
+    "id": "q7",
+    "domain": "Gestão de usuários",
+    "difficulty": "Intermediária",
+    "prompt": "Uma equipe precisa executar ações RTR, mas não administrar usuários. O que fazer?",
+    "options": [
+      "Atribuir somente as funções RTR adequadas",
+      "Dar administração total temporariamente e manter",
+      "Compartilhar a conta do administrador",
+      "Usar um link público"
+    ],
+    "answer": 0,
+    "explanation": "Separe responsabilidades e atribua as funções específicas necessárias ao RTR, de acordo com a política interna.",
+    "source": "exam"
+  },
+  {
+    "id": "q8",
+    "domain": "Gestão de usuários",
+    "difficulty": "Difícil",
+    "prompt": "Qual controle melhora a responsabilização em mudanças administrativas?",
+    "options": [
+      "Contas nominativas e revisão de logs de auditoria",
+      "Uma senha única para todo o SOC",
+      "Desativar logs para economizar espaço",
+      "Registrar tokens em planilhas"
+    ],
+    "answer": 0,
+    "explanation": "Contas nominativas associadas a funções e revisão de auditoria permitem atribuir cada alteração a uma identidade.",
+    "source": "exam"
+  },
+  {
+    "id": "q9",
+    "domain": "Gestão de usuários",
+    "difficulty": "Fácil",
+    "prompt": "O objetivo de um escopo de API é:",
+    "options": [
+      "Definir quais APIs o cliente pode acessar",
+      "Escolher a versão do sensor",
+      "Criar um grupo dinâmico",
+      "Definir a duração da prova"
+    ],
+    "answer": 0,
+    "explanation": "Escopos limitam as famílias de operações disponíveis ao cliente. Escolha somente os necessários.",
+    "source": "api"
+  },
+  {
+    "id": "q10",
+    "domain": "Implantação do sensor",
+    "difficulty": "Fácil",
+    "prompt": "Antes de instalar um sensor em uma VM de teste, o que deve ser confirmado?",
+    "options": [
+      "Sistema operacional e requisitos suportados",
+      "A cor do dashboard",
+      "O resultado do simulado",
+      "A existência de um IOC personalizado"
+    ],
+    "answer": 0,
+    "explanation": "Compatibilidade, pré-requisitos, conectividade e pacote correto devem ser verificados antes da implantação.",
+    "source": "exam"
+  },
+  {
+    "id": "q11",
+    "domain": "Implantação do sensor",
+    "difficulty": "Intermediária",
+    "prompt": "Qual abordagem favorece rollout seguro de uma nova versão do sensor?",
+    "options": [
+      "Implantar em todos os hosts simultaneamente",
+      "Usar grupo piloto, observar saúde e ampliar por etapas",
+      "Desabilitar a proteção em produção",
+      "Remover políticas de atualização"
+    ],
+    "answer": 1,
+    "explanation": "Um anel piloto reduz o raio de impacto e permite validar saúde, compatibilidade e rollback antes da expansão.",
+    "source": "update"
+  },
+  {
+    "id": "q12",
+    "domain": "Implantação do sensor",
+    "difficulty": "Difícil",
+    "prompt": "Um Linux recebeu o pacote do sensor por automação, mas ainda não está operacional. Qual hipótese deve ser validada?",
+    "options": [
+      "Se a configuração/registro do sensor também foi concluída",
+      "Se o usuário respondeu uma questão",
+      "Se o dashboard está em tema escuro",
+      "Se existe uma conta compartilhada"
+    ],
+    "answer": 0,
+    "explanation": "Instalar o pacote e configurar/registrar o sensor são etapas distintas em alguns fluxos; valide ambas e o estado do serviço.",
+    "source": "sensor"
+  },
+  {
+    "id": "q13",
+    "domain": "Implantação do sensor",
+    "difficulty": "Fácil",
+    "prompt": "Onde uma credencial usada por automação de implantação deve ficar?",
+    "options": [
+      "No HTML servido ao usuário",
+      "Em cofre de segredos ou variável protegida no backend",
+      "Em comentário do script público",
+      "No nome do grupo de hosts"
+    ],
+    "answer": 1,
+    "explanation": "Automação deve recuperar segredos de armazenamento protegido. O navegador nunca deve recebê-los.",
+    "source": "cac"
+  },
+  {
+    "id": "q14",
+    "domain": "Implantação do sensor",
+    "difficulty": "Intermediária",
+    "prompt": "Uma desinstalação autorizada exige proteção de manutenção. Qual prática é correta?",
+    "options": [
+      "Publicar o token no ticket",
+      "Obter o mecanismo autorizado, usar por tempo mínimo e não registrar o valor",
+      "Reutilizar o mesmo token em exemplos",
+      "Desativar auditoria antes da ação"
+    ],
+    "answer": 1,
+    "explanation": "Tokens de manutenção são sensíveis: use-os apenas no fluxo autorizado e evite logs, capturas e anotações.",
+    "source": "exam"
+  },
+  {
+    "id": "q15",
+    "domain": "Implantação do sensor",
+    "difficulty": "Difícil",
+    "prompt": "Após instalar um sensor, qual evidência é mais útil antes de ampliar o rollout?",
+    "options": [
+      "Presença e saúde do host na console, versão e política esperadas",
+      "Somente o instalador baixado",
+      "A cor do ícone local",
+      "Um print contendo CID"
+    ],
+    "answer": 0,
+    "explanation": "A evidência deve confirmar comunicação, saúde, versão e aplicação esperada de política, com dados sensíveis sanitizados.",
+    "source": "exam"
+  },
+  {
+    "id": "q16",
+    "domain": "Implantação do sensor",
+    "difficulty": "Intermediária",
+    "prompt": "Por que preparar políticas padrão antes de um rollout amplo?",
+    "options": [
+      "Para garantir uma postura conhecida aos novos hosts",
+      "Para evitar a criação de grupos",
+      "Para remover a necessidade de testes",
+      "Para publicar credenciais"
+    ],
+    "answer": 0,
+    "explanation": "Novos endpoints podem herdar políticas padrão; revise-as para evitar uma postura inesperada durante o onboarding.",
+    "source": "exam"
+  },
+  {
+    "id": "q17",
+    "domain": "Implantação do sensor",
+    "difficulty": "Difícil",
+    "prompt": "Qual é a melhor resposta a falhas somente em um anel piloto?",
+    "options": [
+      "Pausar expansão, coletar evidências e investigar compatibilidade",
+      "Forçar o rollout global",
+      "Excluir todos os hosts",
+      "Ignorar o piloto"
+    ],
+    "answer": 0,
+    "explanation": "O objetivo do piloto é revelar problemas cedo. Pause, investigue e só retome com critérios de sucesso atendidos.",
+    "source": "exam"
+  },
+  {
+    "id": "q18",
+    "domain": "Implantação do sensor",
+    "difficulty": "Fácil",
+    "prompt": "O que uma política de atualização do sensor controla principalmente?",
+    "options": [
+      "A seleção/implantação de versões do sensor",
+      "As funções dos usuários",
+      "O tempo da prova",
+      "O idioma da console"
+    ],
+    "answer": 0,
+    "explanation": "A política de atualização gerencia como versões do sensor são aplicadas aos grupos/hosts elegíveis.",
+    "source": "update"
+  },
+  {
+    "id": "q19",
+    "domain": "Gestão de hosts",
+    "difficulty": "Fácil",
+    "prompt": "RFM significa que o sensor está:",
+    "options": [
+      "Em modo de funcionalidade reduzida",
+      "Com privilégios globais",
+      "Em uma prova simulada",
+      "Sem qualquer política atribuída obrigatoriamente"
+    ],
+    "answer": 0,
+    "explanation": "Reduced Functionality Mode indica capacidade reduzida e exige investigação da causa e do impacto.",
+    "source": "exam"
+  },
+  {
+    "id": "q20",
+    "domain": "Gestão de hosts",
+    "difficulty": "Intermediária",
+    "prompt": "Onde começar para localizar hosts em RFM?",
+    "options": [
+      "Filtrar a página de gestão de hosts pelo estado relevante",
+      "Criar um usuário novo",
+      "Gerar um Client Secret",
+      "Editar uma questão"
+    ],
+    "answer": 0,
+    "explanation": "A filtragem em Host Management é um objetivo explícito do CCFA e ajuda a isolar hosts em RFM.",
+    "source": "exam"
+  },
+  {
+    "id": "q21",
+    "domain": "Gestão de hosts",
+    "difficulty": "Difícil",
+    "prompt": "Desabilitar detecções em um host de teste deve ser tratado como:",
+    "options": [
+      "Mudança controlada, temporária, auditada e revertida",
+      "Ação sem impacto",
+      "Substituto para contenção",
+      "Forma de atualizar o sensor"
+    ],
+    "answer": 0,
+    "explanation": "A ação altera a postura de detecção. Exija justificativa, janela, aprovação, monitoramento e reversão.",
+    "source": "exam"
+  },
+  {
+    "id": "q22",
+    "domain": "Gestão de hosts",
+    "difficulty": "Intermediária",
+    "prompt": "Um host aparece inativo. Qual análise vem antes de removê-lo de inventários operacionais?",
+    "options": [
+      "Última comunicação, ciclo de vida do ativo e contexto do proprietário",
+      "Apenas a cor do hostname",
+      "Pontuação do usuário",
+      "Quantidade de documentos"
+    ],
+    "answer": 0,
+    "explanation": "Inatividade pode refletir desligamento, aposentadoria ou problema de comunicação. Correlacione contexto antes de agir.",
+    "source": "exam"
+  },
+  {
+    "id": "q23",
+    "domain": "Gestão de hosts",
+    "difficulty": "Difícil",
+    "prompt": "Vários hosts entram em RFM após mudança de kernel/OS. Qual hipótese é prioritária?",
+    "options": [
+      "Compatibilidade entre sensor e plataforma atualizada",
+      "Erro no glossário",
+      "Tema claro",
+      "Duração da certificação"
+    ],
+    "answer": 0,
+    "explanation": "Mudanças de plataforma podem afetar suporte/compatibilidade. Consulte a matriz vigente e correlacione com a versão do sensor.",
+    "source": "exam"
+  },
+  {
+    "id": "q24",
+    "domain": "Gestão de hosts",
+    "difficulty": "Fácil",
+    "prompt": "Qual filtro ajuda a localizar rollout incompleto?",
+    "options": [
+      "Versão/build do sensor",
+      "Nome do plano de estudo",
+      "Idioma do navegador",
+      "Pontuação do simulado"
+    ],
+    "answer": 0,
+    "explanation": "Agrupar/filtrar por versão evidencia hosts fora do anel ou que não receberam a versão esperada.",
+    "source": "exam"
+  },
+  {
+    "id": "q25",
+    "domain": "Gestão de hosts",
+    "difficulty": "Intermediária",
+    "prompt": "Ao capturar evidência de troubleshooting para este lab, o que deve ser removido?",
+    "options": [
+      "CID, IDs reais, hostnames e e-mails",
+      "A data relativa da observação",
+      "O nome do domínio CCFA",
+      "A indicação de RFM"
+    ],
+    "answer": 0,
+    "explanation": "Sanitize identificadores do tenant, de pessoas e de ativos antes de guardar qualquer evidência.",
+    "source": "exam"
+  },
+  {
+    "id": "q26",
+    "domain": "Gestão de hosts",
+    "difficulty": "Difícil",
+    "prompt": "Qual relatório operacional combina melhor com uma revisão de saúde?",
+    "options": [
+      "Distribuição de versões, hosts inativos e estados problemáticos",
+      "Lista de respostas do simulado apenas",
+      "Somente lista de usuários",
+      "A página do Marketplace"
+    ],
+    "answer": 0,
+    "explanation": "Uma visão de saúde precisa evidenciar cobertura, atualização e exceções operacionais para orientar a ação.",
+    "source": "exam"
+  },
+  {
+    "id": "q27",
+    "domain": "Gestão de hosts",
+    "difficulty": "Intermediária",
+    "prompt": "Contenção de rede e desabilitação de detecções são equivalentes?",
+    "options": [
+      "Sim, sempre",
+      "Não; têm objetivos e impactos distintos",
+      "Sim, mas apenas em Linux",
+      "Não, porque contenção atualiza o sensor"
+    ],
+    "answer": 1,
+    "explanation": "Contenção restringe comunicação do host conforme a política; desabilitar detecções altera comportamento de detecção. Não são substitutos.",
+    "source": "exam"
+  },
+  {
+    "id": "q28",
+    "domain": "Criação de grupos",
+    "difficulty": "Fácil",
+    "prompt": "Por que usar grupos de hosts?",
+    "options": [
+      "Para direcionar políticas e operações a conjuntos controlados",
+      "Para armazenar Client Secrets",
+      "Para alterar a prova oficial",
+      "Para substituir usuários"
+    ],
+    "answer": 0,
+    "explanation": "Grupos organizam endpoints e influenciam o direcionamento e a aplicação de políticas.",
+    "source": "exam"
+  },
+  {
+    "id": "q29",
+    "domain": "Criação de grupos",
+    "difficulty": "Intermediária",
+    "prompt": "Qual regra dinâmica é mais robusta para um grupo piloto?",
+    "options": [
+      "Atributos estáveis e verificáveis do ativo",
+      "Nome digitado manualmente sem padrão",
+      "E-mail do operador",
+      "Token OAuth"
+    ],
+    "answer": 0,
+    "explanation": "Regras baseadas em atributos governados reduzem associação inesperada e drift.",
+    "source": "exam"
+  },
+  {
+    "id": "q30",
+    "domain": "Criação de grupos",
+    "difficulty": "Difícil",
+    "prompt": "Um host pertence a grupos associados a políticas diferentes. O que o administrador deve validar?",
+    "options": [
+      "Precedência e política efetiva",
+      "Somente a data de criação do usuário",
+      "A ordem das questões",
+      "O navegador padrão"
+    ],
+    "answer": 0,
+    "explanation": "Associação múltipla exige compreender precedência e confirmar a política efetivamente aplicada ao host.",
+    "source": "exam"
+  },
+  {
+    "id": "q31",
+    "domain": "Criação de grupos",
+    "difficulty": "Intermediária",
+    "prompt": "Antes de editar uma regra de atribuição dinâmica, qual controle reduz impacto?",
+    "options": [
+      "Estimar membros afetados e testar com escopo pequeno",
+      "Excluir a política padrão",
+      "Compartilhar segredo de API",
+      "Desligar todos os sensores"
+    ],
+    "answer": 0,
+    "explanation": "Pré-visualize/estime o conjunto resultante e valide em pequeno escopo antes de ampliar.",
+    "source": "exam"
+  },
+  {
+    "id": "q32",
+    "domain": "Criação de grupos",
+    "difficulty": "Fácil",
+    "prompt": "A API de Host Groups permite:",
+    "options": [
+      "Criar, consultar e atualizar grupos conforme os escopos",
+      "Emitir certificado CCFA",
+      "Armazenar perguntas da prova real",
+      "Ignorar autenticação"
+    ],
+    "answer": 0,
+    "explanation": "A coleção oficial expõe operações de grupos e exige escopos apropriados.",
+    "source": "groups"
+  },
+  {
+    "id": "q33",
+    "domain": "Criação de grupos",
+    "difficulty": "Difícil",
+    "prompt": "Qual sinal indica uma regra de grupo mal desenhada?",
+    "options": [
+      "Hosts inesperados entram e saem após mudanças rotineiras de metadados",
+      "O grupo tem descrição e proprietário",
+      "Existe um grupo piloto pequeno",
+      "A regra usa atributo estável"
+    ],
+    "answer": 0,
+    "explanation": "Churn inesperado sugere critérios voláteis ou ambíguos e pode mudar políticas efetivas sem intenção.",
+    "source": "exam"
+  },
+  {
+    "id": "q34",
+    "domain": "Criação de grupos",
+    "difficulty": "Intermediária",
+    "prompt": "Qual metadado melhora a governança de um grupo?",
+    "options": [
+      "Finalidade, proprietário, critério e revisão",
+      "Client Secret",
+      "CID completo",
+      "Senha do administrador"
+    ],
+    "answer": 0,
+    "explanation": "Descrição governada esclarece por que o grupo existe, quem responde por ele e como a associação deve funcionar.",
+    "source": "exam"
+  },
+  {
+    "id": "q35",
+    "domain": "Criação de grupos",
+    "difficulty": "Difícil",
+    "prompt": "Ao remover um grupo de uma política, o que deve ser checado antes?",
+    "options": [
+      "Qual política os membros receberão depois da mudança",
+      "Se o tema está claro",
+      "Se há 60 questões",
+      "Se o usuário abriu a documentação"
+    ],
+    "answer": 0,
+    "explanation": "A remoção pode causar herança de outra política ou da padrão. Confirme a postura resultante antes de executar.",
+    "source": "exam"
+  },
+  {
+    "id": "q36",
+    "domain": "Criação de grupos",
+    "difficulty": "Fácil",
+    "prompt": "Grupos estáticos são mais adequados quando:",
+    "options": [
+      "A associação explícita e controlada é desejada",
+      "Credenciais precisam ser publicadas",
+      "Todos os hosts devem mudar automaticamente por atributo",
+      "A auditoria é desnecessária"
+    ],
+    "answer": 0,
+    "explanation": "Associação estática é útil para conjuntos pequenos e deliberados, como um piloto controlado.",
+    "source": "exam"
+  },
+  {
+    "id": "q37",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Fácil",
+    "prompt": "Qual é a finalidade de uma política de prevenção?",
+    "options": [
+      "Definir a postura de prevenção/detecção aplicável aos endpoints",
+      "Criar usuários",
+      "Guardar tokens",
+      "Agendar a prova"
+    ],
+    "answer": 0,
+    "explanation": "A política define configurações de proteção que afetam a postura dos endpoints.",
+    "source": "exam"
+  },
+  {
+    "id": "q38",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Intermediária",
+    "prompt": "Uma alteração de prevenção mais agressiva deve começar por:",
+    "options": [
+      "Piloto controlado com critérios de sucesso e rollback",
+      "Produção inteira sem observação",
+      "Desabilitar logs",
+      "Apagar a política anterior"
+    ],
+    "answer": 0,
+    "explanation": "Mudanças de proteção podem gerar impacto operacional. Piloto e observabilidade permitem calibrar com segurança.",
+    "source": "exam"
+  },
+  {
+    "id": "q39",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Difícil",
+    "prompt": "Por que a política efetiva pode diferir da política que o operador esperava?",
+    "options": [
+      "Associação a grupos, plataforma, habilitação e precedência",
+      "Porque o HTML está offline",
+      "Porque a questão é difícil",
+      "Porque não existe API"
+    ],
+    "answer": 0,
+    "explanation": "A avaliação considera elegibilidade, associações e ordem/precedência. Sempre confirme o resultado no host.",
+    "source": "exam"
+  },
+  {
+    "id": "q40",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Intermediária",
+    "prompt": "Uma exclusão de IP em política de contenção deve ser:",
+    "options": [
+      "Mínima, justificada, testada e revisada",
+      "Ampla para toda a internet",
+      "Usada para guardar o CID",
+      "Criada sem prazo"
+    ],
+    "answer": 0,
+    "explanation": "Exclusões ampliam a comunicação de hosts contidos; reduza o escopo e valide somente os fluxos necessários.",
+    "source": "exam"
+  },
+  {
+    "id": "q41",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Difícil",
+    "prompt": "Qual evidência mostra melhor que uma política foi aplicada como esperado?",
+    "options": [
+      "Política efetiva no host e teste controlado do comportamento",
+      "Somente o nome da política",
+      "Um segredo de API",
+      "A página inicial da console"
+    ],
+    "answer": 0,
+    "explanation": "Nome e associação não bastam; confirme a política efetiva e o comportamento em cenário autorizado.",
+    "source": "exam"
+  },
+  {
+    "id": "q42",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Fácil",
+    "prompt": "Quarentena de arquivo deve ser gerenciada com:",
+    "options": [
+      "Permissões adequadas, cadeia de custódia e procedimento aprovado",
+      "Download indiscriminado para notebooks pessoais",
+      "Compartilhamento público",
+      "Desativação de auditoria"
+    ],
+    "answer": 0,
+    "explanation": "Artefatos podem ser perigosos e sensíveis. Restrinja acesso e siga o processo de manuseio aprovado.",
+    "source": "exam"
+  },
+  {
+    "id": "q43",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Intermediária",
+    "prompt": "Qual risco existe ao desabilitar uma política sem revisar os grupos associados?",
+    "options": [
+      "Hosts podem cair em outra postura ou na padrão",
+      "A prova fica com 59 questões",
+      "O OAuth deixa de existir",
+      "O glossário é apagado"
+    ],
+    "answer": 0,
+    "explanation": "A mudança pode alterar a política efetiva de muitos hosts. Mapeie a herança/precedência antes.",
+    "source": "exam"
+  },
+  {
+    "id": "q44",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Difícil",
+    "prompt": "Um administrador precisa executar RTR. Além da função do usuário, o que deve validar?",
+    "options": [
+      "A política RTR/response aplicável e a auditoria",
+      "A cor do dashboard",
+      "A quantidade de labs",
+      "A duração da certificação"
+    ],
+    "answer": 0,
+    "explanation": "A capacidade efetiva depende de autorização e política; as ações devem permanecer auditáveis.",
+    "source": "exam"
+  },
+  {
+    "id": "q45",
+    "domain": "Aplicação de políticas",
+    "difficulty": "Intermediária",
+    "prompt": "Por que documentar rollback antes de mudar uma política?",
+    "options": [
+      "Para restaurar rapidamente a postura conhecida se houver impacto",
+      "Para expor segredos",
+      "Para evitar aprovação",
+      "Para substituir testes"
+    ],
+    "answer": 0,
+    "explanation": "Um rollback claro reduz tempo de recuperação e evita decisões improvisadas durante incidentes de mudança.",
+    "source": "exam"
+  },
+  {
+    "id": "q46",
+    "domain": "Configuração de regras",
+    "difficulty": "Fácil",
+    "prompt": "Um IOC representa principalmente:",
+    "options": [
+      "Um indicador observável configurado para orientar detecção/prevenção",
+      "Uma função de usuário",
+      "Uma versão de sensor",
+      "Um relatório financeiro"
+    ],
+    "answer": 0,
+    "explanation": "IOCs são indicadores como hashes ou outros observáveis, configurados conforme o caso de uso e a postura desejada.",
+    "source": "exam"
+  },
+  {
+    "id": "q47",
+    "domain": "Configuração de regras",
+    "difficulty": "Intermediária",
+    "prompt": "Quando uma custom IOA é mais adequada?",
+    "options": [
+      "Para reconhecer comportamento relevante que uma simples lista de IOC não expressa",
+      "Para armazenar Client Secret",
+      "Para atualizar o sensor",
+      "Para criar a conta do candidato"
+    ],
+    "answer": 0,
+    "explanation": "Custom IOAs descrevem padrões comportamentais. Teste a lógica para evitar ruído e impactos.",
+    "source": "exam"
+  },
+  {
+    "id": "q48",
+    "domain": "Configuração de regras",
+    "difficulty": "Difícil",
+    "prompt": "Uma atividade legítima gera falso positivo. Qual é a melhor primeira resposta?",
+    "options": [
+      "Investigar causa e escolher a exceção mais específica e segura",
+      "Excluir todas as regras",
+      "Criar exclusão global permanente",
+      "Ignorar a detecção"
+    ],
+    "answer": 0,
+    "explanation": "Compreenda o gatilho antes de ajustar. A correção deve ser mínima, justificável, monitorada e revisável.",
+    "source": "exam"
+  },
+  {
+    "id": "q49",
+    "domain": "Configuração de regras",
+    "difficulty": "Intermediária",
+    "prompt": "Qual risco de uma exclusão ampla de caminho?",
+    "options": [
+      "Criar ponto cego para atividades maliciosas no mesmo caminho",
+      "Aumentar a duração da prova",
+      "Alterar funções RBAC",
+      "Impedir o tema claro"
+    ],
+    "answer": 0,
+    "explanation": "Exclusões de caminho amplas podem suprimir visibilidade/proteção para conteúdo não confiável.",
+    "source": "exam"
+  },
+  {
+    "id": "q50",
+    "domain": "Configuração de regras",
+    "difficulty": "Difícil",
+    "prompt": "Antes de promover uma custom IOA de monitoramento para bloqueio, o que é essencial?",
+    "options": [
+      "Analisar correspondências e falsos positivos em escopo controlado",
+      "Publicar o segredo da API",
+      "Desligar auditoria",
+      "Remover todos os grupos"
+    ],
+    "answer": 0,
+    "explanation": "O modo de monitoramento permite avaliar qualidade da regra antes de aplicar uma resposta mais disruptiva.",
+    "source": "exam"
+  },
+  {
+    "id": "q51",
+    "domain": "Configuração de regras",
+    "difficulty": "Fácil",
+    "prompt": "A coleção oficial de IOA Exclusions permite:",
+    "options": [
+      "Consultar e gerenciar exclusões com escopos adequados",
+      "Emitir vouchers de prova",
+      "Instalar sensores sem autenticação",
+      "Guardar documentos locais"
+    ],
+    "answer": 0,
+    "explanation": "A API oferece operações de consulta e gestão de exclusões e exige autorização apropriada.",
+    "source": "ioa"
+  },
+  {
+    "id": "q52",
+    "domain": "Configuração de regras",
+    "difficulty": "Intermediária",
+    "prompt": "Uma exceção temporária deve ter:",
+    "options": [
+      "Proprietário, justificativa, escopo e data de revisão/expiração",
+      "Token em texto claro",
+      "Escopo global por padrão",
+      "Nenhuma evidência"
+    ],
+    "answer": 0,
+    "explanation": "Governança torna a exceção rastreável e evita permanência além da necessidade.",
+    "source": "exam"
+  },
+  {
+    "id": "q53",
+    "domain": "Configuração de regras",
+    "difficulty": "Difícil",
+    "prompt": "Qual distinção é mais útil ao escolher entre IOC e custom IOA?",
+    "options": [
+      "Indicador observável específico versus padrão de comportamento",
+      "Tema claro versus escuro",
+      "Usuário versus documento",
+      "Dashboard versus prova"
+    ],
+    "answer": 0,
+    "explanation": "Escolha o mecanismo alinhado ao objetivo: um observável conhecido ou uma sequência/condição comportamental.",
+    "source": "exam"
+  },
+  {
+    "id": "q54",
+    "domain": "Configuração de regras",
+    "difficulty": "Intermediária",
+    "prompt": "Configurações gerais com efeito em todo o CID exigem:",
+    "options": [
+      "Revisão de impacto, autorização e mudança controlada",
+      "Menos cautela por serem globais",
+      "Registro do CID no lab",
+      "Apenas validação visual"
+    ],
+    "answer": 0,
+    "explanation": "Mudanças de amplo alcance têm maior raio de impacto e devem passar por governança reforçada.",
+    "source": "exam"
+  },
+  {
+    "id": "q55",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Fácil",
+    "prompt": "Qual dashboard ajuda a avaliar cobertura do sensor?",
+    "options": [
+      "Hosts esperados versus reportando, por plataforma e unidade",
+      "Somente usuários criados",
+      "Somente questões erradas",
+      "Marketplace"
+    ],
+    "answer": 0,
+    "explanation": "Cobertura compara população esperada com endpoints reportando e destaca lacunas acionáveis.",
+    "source": "exam"
+  },
+  {
+    "id": "q56",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Intermediária",
+    "prompt": "Para acompanhar rollout, qual visual é mais útil?",
+    "options": [
+      "Distribuição de versões por anel e tendência temporal",
+      "Lista de Client Secrets",
+      "Glossário PT–EN",
+      "Somente número de usuários"
+    ],
+    "answer": 0,
+    "explanation": "A distribuição por anel revela adoção, estagnação e desvios em relação ao plano.",
+    "source": "exam"
+  },
+  {
+    "id": "q57",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Difícil",
+    "prompt": "Um relatório mostra muitos hosts na versão anterior, mas somente fora do horário de atualização. Qual interpretação inicial é prudente?",
+    "options": [
+      "Pode ser comportamento esperado da janela; reavaliar após o ciclo",
+      "É falha definitiva",
+      "É um problema de RBAC",
+      "Deve-se apagar a política"
+    ],
+    "answer": 0,
+    "explanation": "Contextualize os dados com a agenda da política antes de classificar como falha.",
+    "source": "exam"
+  },
+  {
+    "id": "q58",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Intermediária",
+    "prompt": "O que um dashboard de política efetiva deve destacar?",
+    "options": [
+      "Hosts cuja política efetiva diverge da intenção",
+      "Tokens OAuth",
+      "Respostas corretas apenas",
+      "Documentos sem link"
+    ],
+    "answer": 0,
+    "explanation": "O valor está em revelar divergências entre segmentação pretendida e resultado aplicado.",
+    "source": "exam"
+  },
+  {
+    "id": "q59",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Difícil",
+    "prompt": "Qual correlação melhora uma revisão de acessos/API?",
+    "options": [
+      "Identidade/cliente, escopos, proprietário, último uso e mudanças",
+      "Cor do tema e tamanho da tela",
+      "Versão do HTML e navegador",
+      "Duração dos labs"
+    ],
+    "answer": 0,
+    "explanation": "Esses campos revelam privilégio excessivo, contas órfãs e integrações inativas.",
+    "source": "exam"
+  },
+  {
+    "id": "q60",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Fácil",
+    "prompt": "Logs de auditoria são usados para:",
+    "options": [
+      "Rastrear ações administrativas e apoiar investigação",
+      "Substituir políticas",
+      "Instalar sensores",
+      "Guardar segredos"
+    ],
+    "answer": 0,
+    "explanation": "Auditoria responde quem fez o quê e quando, dentro dos dados disponibilizados pela plataforma.",
+    "source": "exam"
+  },
+  {
+    "id": "q61",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Intermediária",
+    "prompt": "Qual prática torna um relatório recorrente acionável?",
+    "options": [
+      "Definir público, objetivo, limiar e responsável pela resposta",
+      "Exportar tudo sem contexto",
+      "Incluir credenciais",
+      "Não revisar resultados"
+    ],
+    "answer": 0,
+    "explanation": "Um relatório útil liga o indicador a uma decisão, a um dono e a um prazo.",
+    "source": "exam"
+  },
+  {
+    "id": "q62",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Difícil",
+    "prompt": "Uma queda súbita de cobertura exige primeiro:",
+    "options": [
+      "Validar fonte, filtro e período; depois investigar endpoints/serviços",
+      "Rotacionar todos os segredos",
+      "Excluir grupos",
+      "Desabilitar detecções"
+    ],
+    "answer": 0,
+    "explanation": "Confirme se a anomalia é real e não efeito de filtro/período, então avance para as causas operacionais.",
+    "source": "exam"
+  },
+  {
+    "id": "q63",
+    "domain": "Dashboards e relatórios",
+    "difficulty": "Intermediária",
+    "prompt": "Qual dado não deve aparecer em um relatório de estudo exportado?",
+    "options": [
+      "CID, tokens, IDs reais e nomes de ativos",
+      "Percentual agregado fictício",
+      "Domínio CCFA",
+      "Data do exercício"
+    ],
+    "answer": 0,
+    "explanation": "Evidências de treino devem ser sanitizadas e não transportar dados do tenant.",
+    "source": "exam"
+  },
+  {
+    "id": "q64",
+    "domain": "Workflows",
+    "difficulty": "Fácil",
+    "prompt": "Um workflow do Falcon Fusion responde a:",
+    "options": [
+      "Triggers definidos com condições e ações",
+      "Qualquer evento sem configuração",
+      "Somente mudanças de tema",
+      "Instalação do navegador"
+    ],
+    "answer": 0,
+    "explanation": "Workflows conectam gatilhos, condições e ações para automatizar processos definidos.",
+    "source": "workflow"
+  },
+  {
+    "id": "q65",
+    "domain": "Workflows",
+    "difficulty": "Intermediária",
+    "prompt": "Antes de habilitar um workflow com contenção, qual teste é mais seguro?",
+    "options": [
+      "Usar escopo de teste e ação não disruptiva/observável primeiro",
+      "Apontar para todos os hosts",
+      "Remover aprovações",
+      "Incluir segredo na descrição"
+    ],
+    "answer": 0,
+    "explanation": "Valide lógica e filtros em ambiente controlado antes de permitir ação de alto impacto.",
+    "source": "exam"
+  },
+  {
+    "id": "q66",
+    "domain": "Workflows",
+    "difficulty": "Difícil",
+    "prompt": "Um workflow entra em loop porque sua ação gera novamente o gatilho. Qual controle faltou?",
+    "options": [
+      "Condição de guarda/idempotência e limite de escopo",
+      "Mais Client Secrets",
+      "Uma versão de sensor anterior",
+      "Um grupo sem descrição"
+    ],
+    "answer": 0,
+    "explanation": "Desenhe automações para reconhecer o estado já tratado e impedir reentrada indevida.",
+    "source": "exam"
+  },
+  {
+    "id": "q67",
+    "domain": "Workflows",
+    "difficulty": "Intermediária",
+    "prompt": "Quando inserir aprovação humana em um workflow?",
+    "options": [
+      "Antes de ações irreversíveis ou de alto impacto conforme risco",
+      "Em toda leitura simples obrigatoriamente",
+      "Nunca",
+      "Depois de divulgar credenciais"
+    ],
+    "answer": 0,
+    "explanation": "Um ponto de decisão humana é apropriado quando contexto adicional ou autorização é exigida antes de uma ação sensível.",
+    "source": "exam"
+  },
+  {
+    "id": "q68",
+    "domain": "Workflows",
+    "difficulty": "Fácil",
+    "prompt": "Qual evidência confirma a execução de um workflow?",
+    "options": [
+      "Histórico de execução com gatilho, caminho e resultado sanitizados",
+      "Somente o nome do workflow",
+      "Um token OAuth",
+      "A pontuação do simulado"
+    ],
+    "answer": 0,
+    "explanation": "O histórico permite verificar se a automação seguiu o ramo esperado e se as ações concluíram.",
+    "source": "exam"
+  },
+  {
+    "id": "q69",
+    "domain": "Workflows",
+    "difficulty": "Difícil",
+    "prompt": "Uma notificação dispara para milhares de eventos semelhantes. Como reduzir fadiga sem perder sinal?",
+    "options": [
+      "Refinar condições, agrupar/deduplicar e aplicar janelas adequadas",
+      "Desativar todos os workflows",
+      "Enviar também os segredos",
+      "Conter todos os hosts"
+    ],
+    "answer": 0,
+    "explanation": "A lógica deve preservar eventos relevantes e reduzir repetições por correlação/deduplicação apropriada.",
+    "source": "exam"
+  },
+  {
+    "id": "q70",
+    "domain": "Workflows",
+    "difficulty": "Intermediária",
+    "prompt": "Qual prática facilita rollback de uma automação?",
+    "options": [
+      "Versionar a definição, documentar ações e manter um caminho de desativação",
+      "Apagar histórico",
+      "Usar conta compartilhada",
+      "Omitir proprietário"
+    ],
+    "answer": 0,
+    "explanation": "Versão, propriedade e procedimento de desativação tornam a mudança reversível e auditável.",
+    "source": "exam"
+  },
+  {
+    "id": "q71",
+    "domain": "Workflows",
+    "difficulty": "Difícil",
+    "prompt": "Um workflow chama RTR. Quais controles devem ser combinados?",
+    "options": [
+      "Funções/políticas RTR, escopo de hosts, validação do script e auditoria",
+      "Somente tema escuro",
+      "Apenas grupo padrão",
+      "Client Secret no código"
+    ],
+    "answer": 0,
+    "explanation": "Automação RTR exige autorização, direcionamento preciso, conteúdo validado e rastreabilidade.",
+    "source": "rtr"
+  },
+  {
+    "id": "q72",
+    "domain": "Workflows",
+    "difficulty": "Intermediária",
+    "prompt": "Workflows agendados são úteis quando:",
+    "options": [
+      "A tarefa deve ocorrer em uma cadência definida, com limites e monitoramento",
+      "Não há requisito claro",
+      "Segredos precisam ficar no frontend",
+      "A ação não tem proprietário"
+    ],
+    "answer": 0,
+    "explanation": "Tarefas recorrentes podem ser agendadas, desde que o escopo, a segurança e a observabilidade estejam definidos.",
+    "source": "workflow"
+  }
+]

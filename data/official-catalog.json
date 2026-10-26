@@ -1,0 +1,29 @@
+{
+  "source": "https://docs.crowdstrike.com/p/release-notes",
+  "capturedAt": "2026-08-17T15:05:00-03:00",
+  "access": "authenticated-browser-metadata-only",
+  "reportedTotal": 3221,
+  "checkpoint": { "page": 1, "offset": 20, "complete": false, "nextAction": "continue_after_user_authorized_export" },
+  "documents": [
+    {"externalId":"3641786737309","title":"Release Notes: Falcon Console, Week of August 10, 2026","url":"https://docs.crowdstrike.com/r/3641786737309","category":"Falcon Management","product":"Falcon Console","published":"2026-08-14"},
+    {"externalId":"3641786662030","title":"Release Notes: AIDR for Agents Can Secure MCP Traffic in Kong AI Gateway","url":"https://docs.crowdstrike.com/r/3641786662030","category":"AI Detection and Response","product":"AIDR for Agents","published":"2026-08-13"},
+    {"externalId":"3641786649461","title":"Release Notes: AIDR for Agents Supports JetStream Security Gateway","url":"https://docs.crowdstrike.com/r/3641786649461","category":"AI Detection and Response","product":"AIDR for Agents","published":"2026-08-13"},
+    {"externalId":"3641786648320","title":"Release Notes: Falcon Cloud Security, August 13, 2026","url":"https://docs.crowdstrike.com/r/3641786648320","category":"Cloud Security","product":"Falcon Cloud Security","published":"2026-08-13"},
+    {"externalId":"3641786560237","title":"Release Notes: Falcon Helm and Operator Updates, August 2026","url":"https://docs.crowdstrike.com/r/3641786560237","category":"Sensor Deployment and Maintenance","product":"Falcon Helm and Operator","published":"2026-08-13"},
+    {"externalId":"3641786572838","title":"Release Notes: Falcon Sensor for Linux 7.40.19311","url":"https://docs.crowdstrike.com/r/3641786572838","category":"Sensor Deployment and Maintenance","product":"Falcon Sensor for Linux","version":"7.40.19311","published":"2026-08-13"},
+    {"externalId":"3641786380524","title":"Release Notes: Falcon Sensor for Mac 7.40.21204","url":"https://docs.crowdstrike.com/r/3641786380524","category":"Sensor Deployment and Maintenance","product":"Falcon Sensor for Mac","version":"7.40.21204","published":"2026-08-13"},
+    {"externalId":"3641786560116","title":"Release Notes: AWS CloudFormation for Falcon Sensor on ECS EC2 v0.2.0","url":"https://docs.crowdstrike.com/r/3641786560116","category":"Cloud Security","product":"Falcon Sensor on ECS EC2","version":"0.2.0","published":"2026-08-12"},
+    {"externalId":"3641786520686","title":"Release Notes: Falcon Shield, July 2026","url":"https://docs.crowdstrike.com/r/3641786520686","category":"Falcon Shield","product":"Falcon Shield","published":"2026-08-12"},
+    {"externalId":"3641786474244","title":"Release Notes: FCS CLI version 4.1.0","url":"https://docs.crowdstrike.com/r/3641786474244","category":"Cloud Security","product":"FCS CLI","version":"4.1.0","published":"2026-08-12"},
+    {"externalId":"3641786565601","title":"Release Notes: Updates to Content Packs for Falcon for IT, August 12, 2026","url":"https://docs.crowdstrike.com/r/3641786565601","category":"IT Automation","product":"Falcon for IT","published":"2026-08-12"},
+    {"externalId":"3641786522904","title":"Release Notes: Web Location Groups and Improved URL Conflict Resolution","url":"https://docs.crowdstrike.com/r/3641786522904","category":"Data Protection","product":"Data Protection","published":"2026-08-12"},
+    {"externalId":"3641786461831","title":"Release Notes: AIDR for Workforce Supports Falcon Browser Extension on Mac and Windows 11 Arm64","url":"https://docs.crowdstrike.com/r/3641786461831","category":"Sensor Deployment and Maintenance","product":"AIDR for Workforce","published":"2026-08-11"},
+    {"externalId":"3641785264634","title":"Release Notes: Custom Rego Rules for Infrastructure as Code Findings","url":"https://docs.crowdstrike.com/r/3641785264634","category":"Cloud Security","product":"Infrastructure as Code","published":"2026-08-11"},
+    {"externalId":"3641786395828","title":"Release Notes: AIDR for Workforce Extends AI Activity Monitoring to Native Applications Via Network Inspection","url":"https://docs.crowdstrike.com/r/3641786395828","category":"AI Detection and Response","product":"AIDR for Workforce","published":"2026-08-10"},
+    {"externalId":"3641785073791","title":"Release Notes: New Cloud Detection Rules Page for Managing Rules and Exclusions","url":"https://docs.crowdstrike.com/r/3641785073791","category":"Cloud Security","product":"Falcon Cloud Security","published":"2026-08-10"},
+    {"externalId":"3641786060857","title":"Registro oficial CrowdStrike — catálogo pendente de título","url":"https://docs.crowdstrike.com/r/3641786060857","category":"Release Notes","product":"CrowdStrike Falcon"},
+    {"externalId":"3641786123738","title":"Registro oficial CrowdStrike — catálogo pendente de título","url":"https://docs.crowdstrike.com/r/3641786123738","category":"Release Notes","product":"CrowdStrike Falcon"},
+    {"externalId":"3641786131944","title":"Registro oficial CrowdStrike — catálogo pendente de título","url":"https://docs.crowdstrike.com/r/3641786131944","category":"Release Notes","product":"CrowdStrike Falcon"},
+    {"externalId":"3641786060182","title":"Registro oficial CrowdStrike — catálogo pendente de título","url":"https://docs.crowdstrike.com/r/3641786060182","category":"Release Notes","product":"CrowdStrike Falcon"}
+  ]
+}

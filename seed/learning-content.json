@@ -1,0 +1,1211 @@
+{
+  "migratedFrom": "../outputs/laboratorio-crowdstrike-administrator.html",
+  "generatedAt": "2026-08-17T18:17:37.883Z",
+  "courses": [
+    {
+      "id": "course-1",
+      "order": 1,
+      "code": "FALCON 100",
+      "title": "Platform Architecture Overview",
+      "minutes": 30,
+      "modules": ["Falcon Platform Architecture Introduction", "Core Falcon Platform Modules", "Leveraging the Falcon Platform"],
+      "tags": [
+        "arquitetura",
+        "plataforma"
+      ],
+      "summary": "Apresenta a arquitetura unificada e nativa de nuvem da plataforma Falcon, seus principais módulos e como eles trabalham em conjunto para apoiar a proteção contra ameaças modernas.",
+      "topics": ["Arquitetura da plataforma Falcon", "Módulos centrais", "Uso integrado da plataforma"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-2",
+      "order": 2,
+      "code": "FALCON 101",
+      "title": "Platform Essentials",
+      "minutes": 50,
+      "modules": ["Getting Started with the Falcon Console", "Host Setup and Management", "Endpoint Security Deep-Dive", "Identity Protection and Next-Gen SIEM", "Cloud Security", "Real Time Response (RTR)", "Threat Intelligence and Charlotte AI", "Summary"],
+      "tags": [
+        "plataforma",
+        "gestão de hosts"
+      ],
+      "summary": "Oferece uma visão guiada do console Falcon, da navegação e das aplicações centrais usadas para visibilidade, prevenção, detecção, investigação e aplicação de políticas.",
+      "topics": ["Navegação no console", "Aplicações Falcon", "Detecção, investigação e políticas"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-3",
+      "order": 3,
+      "code": "FALCON 102",
+      "title": "Platform Onboarding Configuration",
+      "minutes": 120,
+      "modules": ["Setting up users and planning implementation", "Configuring single sign-on, alert notifications, and prevention policies", "Create sensor update policies and additional configurations", "Managing host groups for endpoint policy enforcement", "Managing false positives and exclusions", "Navigating and optimizing Falcon support resources"],
+      "tags": [
+        "onboarding",
+        "usuários",
+        "políticas"
+      ],
+      "summary": "Percorre o ciclo de onboarding da plataforma em ambientes corporativos: planejamento, sensores, alertas, autenticação, APIs, políticas, grupos de hosts, monitoramento e suporte operacional.",
+      "topics": ["Planejamento e onboarding", "SSO e OAuth2", "Sensores, políticas e grupos", "Alertas, triagem e suporte"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-4",
+      "order": 4,
+      "code": "FALCON 104",
+      "title": "Getting Started with Endpoint Security",
+      "minutes": 25,
+      "modules": ["Introduction to Endpoint Security", "Detection Lifestyle in Action", "Investigating Detections with Context"],
+      "tags": [
+        "endpoint security",
+        "prevenção"
+      ],
+      "summary": "Introduz a segurança de endpoints no Falcon, mostrando como a telemetria de comportamento se transforma em detecções contextualizadas e como esse contexto inicia uma investigação.",
+      "topics": ["Visibilidade de endpoint", "Telemetria e comportamento", "Detecções e MITRE ATT&CK", "Contexto para investigação"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-5",
+      "order": 5,
+      "code": "FALCON 105",
+      "title": "Sensor Installation, Configuration and Troubleshooting",
+      "minutes": 45,
+      "modules": ["Introduction and pre-installation", "Policy settings", "Windows sensor installation", "MacOS sensor installation", "Linux sensor installation", "Virtual Machine installation", "Troubleshooting and course wrap-up"],
+      "tags": [
+        "sensor",
+        "RFM",
+        "saúde"
+      ],
+      "summary": "Aborda preparação, instalação, configuração e solução de problemas do Falcon Sensor em Windows, macOS, Linux e ambientes virtuais, incluindo requisitos, opções de instalação e políticas relacionadas.",
+      "topics": ["Pré-requisitos de SO e rede", "Instalação multiplataforma", "Opções e scripts de instalação", "Políticas e troubleshooting"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-6",
+      "order": 6,
+      "code": "FALCON 106",
+      "title": "Customizing Dashboards in Falcon",
+      "minutes": 20,
+      "modules": ["Dashboards Foundations", "Build a Dashboard", "Operationalize: Share, Report, Maintain", "Summary"],
+      "tags": [
+        "dashboards",
+        "relatórios"
+      ],
+      "summary": "Ensina a criar e administrar dashboards personalizados, distinguindo fontes únicas e múltiplas e cobrindo edição, compartilhamento, duplicação e agendamento como relatório.",
+      "topics": ["Dashboards de fonte única", "Dashboards multifuente", "Compartilhamento e edição", "Relatórios agendados"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-7",
+      "order": 7,
+      "code": "FALCON 107",
+      "title": "Falcon Firewall Management Fundamentals",
+      "minutes": 15,
+      "modules": ["Firewall Management Fundamentals", "Firewall Rule Creation"],
+      "tags": [
+        "firewall",
+        "políticas"
+      ],
+      "summary": "Apresenta os fundamentos do Falcon Firewall Management para administrar o firewall nativo do Windows pelo console e sensor Falcon, incluindo regras, grupos de regras e políticas.",
+      "topics": ["Firewall Management", "Grupos de regras", "Regras de firewall", "Políticas de firewall"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-8",
+      "order": 8,
+      "code": "SOAR 100",
+      "title": "Falcon Fusion SOAR Fundamentals",
+      "minutes": 45,
+      "modules": ["Introduction to Falcon Fusion SOAR", "Fusion SOAR Workflow Examples", "Monitor Workflows", "Build a Falcon Fusion SOAR Workflow"],
+      "tags": [
+        "workflows",
+        "automação"
+      ],
+      "summary": "Explica como construir, executar e acompanhar workflows no Falcon Fusion SOAR usando gatilhos, condições, ações, ramificações, loops e execução sob demanda.",
+      "topics": ["Gatilhos, condições e ações", "Ramificações e loops", "Execução sob demanda", "Monitoramento e histórico"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-9",
+      "order": 9,
+      "code": "FALCON 160",
+      "title": "Falcon for Mobile",
+      "minutes": 15,
+      "modules": ["Introduction to Falcon for Mobile", "Planning & Deploying Falcon for Mobile", "Managing Falcon for Mobile"],
+      "tags": [
+        "mobile",
+        "plataforma"
+      ],
+      "summary": "Apresenta o Falcon for Mobile para Android e iOS, com foco em telemetria, privacidade, planejamento de implantação, modelos MDM e BYOD, inscrição e validação do rollout.",
+      "topics": ["Proteção Android e iOS", "Telemetria e privacidade", "MDM e BYOD", "Inscrição e validação"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-10",
+      "order": 10,
+      "code": "ITSEC 121",
+      "title": "Vulnerability Management Fundamentals",
+      "minutes": 40,
+      "modules": ["Vulnerability Management Overview", "Identifying Vulnerabilities", "Vulnerability Management", "Investigating Vulnerabilities", "Prioritizing Remediation", "Vulnerability Management Reports", "Remediation Options: Ticketing workflows, Custom Dashboards and APIs", "Installed Patches Monitoring", "Vulnerability Suppression Rules and Course Summary"],
+      "tags": [
+        "vulnerabilidades",
+        "exposure"
+      ],
+      "summary": "Introduz o Falcon Vulnerability Management para visibilidade de vulnerabilidades sem varredura tradicional, priorização, filtros, supressões, patches, relatórios e APIs.",
+      "topics": ["Visibilidade de vulnerabilidades", "Priorização e filtros", "Supressões e patches", "Relatórios e APIs"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-11",
+      "order": 11,
+      "code": "ITSEC 122",
+      "title": "Asset Management Fundamentals",
+      "minutes": 40,
+      "modules": ["Asset Management Overview", "Asset Management Dashboards and Tables", "Assets", "Accounts", "Applications and Course Summary"],
+      "tags": [
+        "ativos",
+        "cobertura"
+      ],
+      "summary": "Apresenta o Asset Management para obter visibilidade de ativos, contas e aplicações, usando inventários, dashboards e tabelas para navegar e analisar o ambiente.",
+      "topics": ["Inventário de ativos", "Contas e aplicações", "Dashboards e tabelas", "Análise do ambiente"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    },
+    {
+      "id": "course-12",
+      "order": 12,
+      "code": "ILT",
+      "title": "Falcon Administrator ILT Courses",
+      "minutes": null,
+      "modules": ["Falcon Administrator ILT courses"],
+      "tags": [
+        "administração",
+        "revisão"
+      ],
+      "summary": "Direciona o aluno aos treinamentos conduzidos por instrutor que complementam a preparação de Falcon Administrator. A página do plano não informa nomes nem duração dessas turmas.",
+      "topics": ["Treinamento conduzido por instrutor", "Complemento da trilha administrativa"],
+      "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator"
+    }
+  ],
+  "labs": [
+    {
+      "id": "lab1",
+      "category": "Sensor",
+      "title": "Instalação controlada do sensor",
+      "objective": "Validar o ciclo de implantação em uma única VM descartável.",
+      "prereq": [
+        "Tenant de teste autorizado",
+        "VM suportada com snapshot",
+        "Pacote obtido pela console; não registrar CID"
+      ],
+      "steps": [
+        "Criar snapshot e registrar estado inicial sem identificadores reais",
+        "Revisar política padrão aplicável",
+        "Instalar pelo procedimento oficial do sistema operacional",
+        "Confirmar presença, comunicação, versão e política na console",
+        "Registrar somente o resultado sanitizado"
+      ],
+      "evidence": "Tabela com plataforma fictícia, horário relativo, estado saudável e política esperada.",
+      "risks": "Instalação incorreta, conflito de software ou exposição de segredo.",
+      "cleanup": "Seguir o procedimento oficial de desinstalação; restaurar snapshot; confirmar remoção/inatividade conforme o ciclo documentado."
+    },
+    {
+      "id": "lab2",
+      "category": "Saúde / RFM",
+      "title": "Diagnóstico de saúde e RFM",
+      "objective": "Praticar filtros e triagem sem alterar a postura de produção.",
+      "prereq": [
+        "VM de teste com sensor",
+        "Acesso somente leitura a Host Management"
+      ],
+      "steps": [
+        "Abrir gestão de hosts e aplicar filtros de plataforma/versão",
+        "Identificar campos de última comunicação e estado",
+        "Localizar o filtro de RFM e revisar hosts de teste",
+        "Correlacionar versão do sensor e SO suportado",
+        "Escrever hipótese e próxima verificação"
+      ],
+      "evidence": "Checklist sanitizado com filtro usado, hipótese e decisão; nenhuma captura com hostname/CID.",
+      "risks": "Interpretação errada pode levar a ação desnecessária.",
+      "cleanup": "Remover filtros salvos de teste; não alterar detecções ou políticas."
+    },
+    {
+      "id": "lab3",
+      "category": "Grupos",
+      "title": "Grupo piloto estático",
+      "objective": "Criar um anel pequeno para mudanças controladas.",
+      "prereq": [
+        "Dois endpoints de teste",
+        "Permissão de gestão de grupos",
+        "Convenção de nomes aprovada"
+      ],
+      "steps": [
+        "Definir finalidade, proprietário e critério de saída",
+        "Criar grupo estático com nome marcado como TESTE",
+        "Adicionar apenas os endpoints autorizados",
+        "Validar associação e política efetiva",
+        "Remover um membro e confirmar o efeito esperado"
+      ],
+      "evidence": "Descrição do grupo, contagem fictícia e resultado da política efetiva.",
+      "risks": "Associação incorreta pode direcionar políticas inesperadas.",
+      "cleanup": "Remover membros, excluir o grupo de teste e confirmar a política resultante nos endpoints."
+    },
+    {
+      "id": "lab4",
+      "category": "Grupos",
+      "title": "Regra dinâmica com atributo estável",
+      "objective": "Avaliar associação dinâmica e prevenir churn.",
+      "prereq": [
+        "Metadado de teste governado",
+        "Endpoints descartáveis",
+        "Grupo estático de contingência"
+      ],
+      "steps": [
+        "Escolher atributo não sensível e estável",
+        "Definir regra com escopo mínimo",
+        "Estimar/revisar membros antes de habilitar",
+        "Alterar o atributo em um endpoint de teste",
+        "Observar entrada/saída e registrar latência aproximada"
+      ],
+      "evidence": "Regra mascarada, conjunto esperado e resultado observado.",
+      "risks": "Critério amplo pode incluir endpoints fora do escopo.",
+      "cleanup": "Desabilitar/excluir regra, restaurar metadado e confirmar associação original."
+    },
+    {
+      "id": "lab5",
+      "category": "Usuários / RBAC",
+      "title": "Revisão de menor privilégio",
+      "objective": "Mapear tarefa administrativa para função e validar separação de responsabilidades.",
+      "prereq": [
+        "Conta de teste nominativa",
+        "Matriz interna de responsabilidades",
+        "Administrador supervisor"
+      ],
+      "steps": [
+        "Listar três tarefas necessárias sem dados reais",
+        "Mapear cada tarefa às permissões/funções disponíveis",
+        "Atribuir somente a função aprovada à conta de teste",
+        "Validar uma ação permitida e outra negada",
+        "Revisar a trilha de auditoria"
+      ],
+      "evidence": "Matriz tarefa → função → resultado, usando usuário fictício.",
+      "risks": "Privilégio excessivo ou bloqueio de tarefa legítima.",
+      "cleanup": "Remover funções da conta de teste e desativá-la conforme o procedimento do tenant."
+    },
+    {
+      "id": "lab6",
+      "category": "API",
+      "title": "Cliente API de somente leitura",
+      "objective": "Projetar integração server-side com menor escopo, sem expor credenciais.",
+      "prereq": [
+        "Backend/VM de teste",
+        "Cofre de segredos",
+        "Aprovação para criar cliente de API"
+      ],
+      "steps": [
+        "Definir uma única consulta de inventário",
+        "Identificar apenas os escopos READ necessários na referência oficial",
+        "Criar cliente dedicado e guardar segredo somente no cofre",
+        "Obter token no backend e executar consulta limitada",
+        "Revisar log sem valores de credencial"
+      ],
+      "evidence": "Status HTTP, contagem agregada e escopos; nunca request headers, token, CID ou IDs reais.",
+      "risks": "Vazamento de segredo, escopo excessivo ou log sensível.",
+      "cleanup": "Revogar/excluir o cliente, apagar segredo do cofre e validar que o token não é mais aceito."
+    },
+    {
+      "id": "lab7",
+      "category": "Políticas",
+      "title": "Rollout de atualização por anéis",
+      "objective": "Praticar versão piloto, observação e expansão.",
+      "prereq": [
+        "Grupos TESTE-PILOTO e TESTE-AMPLA",
+        "VMs suportadas",
+        "Janela autorizada"
+      ],
+      "steps": [
+        "Registrar versões atuais agregadas",
+        "Criar/selecionar política de atualização para o piloto",
+        "Associar apenas o grupo piloto e validar precedência",
+        "Observar saúde e versão após a janela",
+        "Simular decisão go/no-go com critérios objetivos"
+      ],
+      "evidence": "Distribuição fictícia por versão, saúde e decisão de expansão.",
+      "risks": "Falha de compatibilidade, atualização fora de janela ou política errada.",
+      "cleanup": "Remover associação, restaurar política/versão aprovada pelo procedimento oficial e validar saúde."
+    },
+    {
+      "id": "lab8",
+      "category": "Políticas",
+      "title": "Prevenção: monitorar antes de bloquear",
+      "objective": "Avaliar uma mudança de proteção com impacto controlado.",
+      "prereq": [
+        "Endpoint de teste",
+        "Artefato benigno aprovado para teste",
+        "Política de prevenção de laboratório"
+      ],
+      "steps": [
+        "Registrar configuração inicial",
+        "Clonar/criar política de teste conforme governança",
+        "Habilitar configuração primeiro no modo menos disruptivo disponível",
+        "Executar teste benigno e revisar evento",
+        "Decidir se os critérios permitem avançar"
+      ],
+      "evidence": "Configuração, evento sanitizado, impacto e decisão.",
+      "risks": "Bloqueio indevido ou redução de proteção se a política for aplicada fora do grupo.",
+      "cleanup": "Remover grupo da política de teste, restaurar a postura inicial e excluir artefatos de teste."
+    },
+    {
+      "id": "lab9",
+      "category": "IOC / IOA / Exclusões",
+      "title": "Ciclo de vida de IOC de teste",
+      "objective": "Criar e remover um indicador sintético sem material malicioso.",
+      "prereq": [
+        "Hash sintético/benigno autorizado",
+        "Política de mudança",
+        "Escopo somente de teste"
+      ],
+      "steps": [
+        "Definir objetivo, ação, severidade e expiração",
+        "Criar IOC com comentário marcando TESTE",
+        "Validar que está consultável",
+        "Revisar correspondências sem executar malware",
+        "Expirar/remover pelo fluxo aprovado"
+      ],
+      "evidence": "Campos não sensíveis do IOC, estado e confirmação de remoção.",
+      "risks": "Bloqueio de arquivo legítimo se o escopo for incorreto.",
+      "cleanup": "Excluir/desabilitar o IOC e confirmar que não há configuração residual."
+    },
+    {
+      "id": "lab10",
+      "category": "IOC / IOA / Exclusões",
+      "title": "Custom IOA em monitoramento",
+      "objective": "Validar lógica comportamental com comando benigno.",
+      "prereq": [
+        "VM isolada",
+        "Comando benigno aprovado",
+        "Política/rule group de teste"
+      ],
+      "steps": [
+        "Descrever o comportamento sem usar malware",
+        "Criar regra com nome e descrição TESTE",
+        "Usar modo de observação/monitoramento durante validação",
+        "Executar o comando benigno",
+        "Analisar correspondência e falsos positivos"
+      ],
+      "evidence": "Regra sanitizada, comportamento esperado e resultado observado.",
+      "risks": "Expressão ampla pode gerar grande volume ou impacto se configurada para bloquear.",
+      "cleanup": "Desabilitar/excluir a regra e remover arquivos/comandos de teste."
+    },
+    {
+      "id": "lab11",
+      "category": "IOC / IOA / Exclusões",
+      "title": "Exclusão mínima e temporária",
+      "objective": "Treinar correção de falso positivo com governança.",
+      "prereq": [
+        "Caso sintético documentado",
+        "Proprietário e data de expiração",
+        "Endpoint de teste"
+      ],
+      "steps": [
+        "Confirmar causa do falso positivo",
+        "Comparar IOC, IOA e tipos de exclusão aplicáveis",
+        "Escolher o mecanismo e escopo mais específicos",
+        "Testar somente no grupo de laboratório",
+        "Revisar se a visibilidade necessária foi preservada"
+      ],
+      "evidence": "Registro de decisão, escopo mascarado, expiração e teste de controle.",
+      "risks": "Exclusão ampla cria ponto cego.",
+      "cleanup": "Remover a exclusão, repetir teste de controle e fechar o registro de exceção."
+    },
+    {
+      "id": "lab12",
+      "category": "RTR / Contenção",
+      "title": "RTR somente leitura",
+      "objective": "Praticar coleta remota sem alterar o endpoint.",
+      "prereq": [
+        "VM de teste online",
+        "Função e response policy adequadas",
+        "Janela aprovada"
+      ],
+      "steps": [
+        "Abrir sessão RTR somente no host de teste",
+        "Executar comandos informativos permitidos, como listar processos/diretório",
+        "Evitar coleta de arquivos ou memória com dados sensíveis",
+        "Encerrar a sessão",
+        "Revisar o audit log do RTR"
+      ],
+      "evidence": "Lista dos tipos de comando, duração e resultado; sem saída real do host.",
+      "risks": "RTR tem alto privilégio e pode expor dados ou alterar o sistema.",
+      "cleanup": "Encerrar sessão, remover qualquer arquivo temporário e confirmar auditoria."
+    },
+    {
+      "id": "lab13",
+      "category": "RTR / Contenção",
+      "title": "Contenção e exclusão de rede controlada",
+      "objective": "Compreender impacto e política de contenção.",
+      "prereq": [
+        "VM descartável com acesso alternativo",
+        "Aprovação explícita",
+        "Endereço/serviço de teste conhecido"
+      ],
+      "steps": [
+        "Confirmar canal de recuperação antes de conter",
+        "Registrar conectividade de referência",
+        "Conter apenas a VM autorizada",
+        "Validar a comunicação permitida/bloqueada conforme documentação e política",
+        "Liberar contenção e verificar recuperação"
+      ],
+      "evidence": "Linha do tempo sanitizada de conter → validar → liberar.",
+      "risks": "Perda de acesso, interrupção ou exclusão de rede ampla.",
+      "cleanup": "Liberar a contenção, remover exclusões criadas e confirmar conectividade e estado saudável."
+    },
+    {
+      "id": "lab14",
+      "category": "Workflows",
+      "title": "Workflow de notificação em modo seguro",
+      "objective": "Validar gatilho e condições sem ação disruptiva.",
+      "prereq": [
+        "Evento sintético/autorizado",
+        "Canal de teste sem dados reais",
+        "Proprietário do workflow"
+      ],
+      "steps": [
+        "Definir trigger e filtros com escopo TESTE",
+        "Configurar ação apenas de notificação ou anotação segura",
+        "Gerar o evento de teste",
+        "Revisar caminho e histórico de execução",
+        "Testar deduplicação/condição de guarda"
+      ],
+      "evidence": "Diagrama trigger → condição → ação e resultado sanitizado.",
+      "risks": "Loop, spam ou vazamento de conteúdo do evento.",
+      "cleanup": "Desabilitar/excluir workflow e mensagem de teste; confirmar ausência de novas execuções."
+    },
+    {
+      "id": "lab15",
+      "category": "Auditoria / Relatórios",
+      "title": "Revisão de auditoria administrativa",
+      "objective": "Responder quem, o quê e quando sem exportar dados sensíveis.",
+      "prereq": [
+        "Conta de teste",
+        "Mudança reversível aprovada",
+        "Acesso aos logs relevantes"
+      ],
+      "steps": [
+        "Executar uma mudança mínima em objeto de teste",
+        "Localizar o evento correspondente no audit log",
+        "Confirmar ator, ação, alvo e horário",
+        "Correlacionar com o registro de mudança",
+        "Exportar apenas uma tabela sanitizada"
+      ],
+      "evidence": "Uma linha fictícia de auditoria com campos e correlação.",
+      "risks": "Exportação pode conter e-mails, IDs e detalhes do tenant.",
+      "cleanup": "Reverter a mudança e apagar a exportação bruta; conservar apenas o resumo sanitizado."
+    },
+    {
+      "id": "lab16",
+      "category": "Auditoria / Relatórios",
+      "title": "Relatório de saúde e cobertura",
+      "objective": "Transformar dados operacionais em decisão de rollout.",
+      "prereq": [
+        "Dados apenas do tenant de teste",
+        "Critérios de cobertura definidos",
+        "Sem exportação de hostnames"
+      ],
+      "steps": [
+        "Selecionar relatório/dados de sensores e hosts",
+        "Agrupar por plataforma, versão e estado",
+        "Calcular cobertura agregada e destacar exceções",
+        "Definir limiar e proprietário para cada exceção",
+        "Registrar uma recomendação go/no-go"
+      ],
+      "evidence": "Tabela agregada fictícia e decisão com limiar.",
+      "risks": "Filtros incorretos podem produzir conclusão enganosa.",
+      "cleanup": "Excluir exportação bruta e filtros salvos de teste; manter apenas o resumo sem identificadores."
+    },
+    {
+      "id": "lab17",
+      "category": "Dashboards",
+      "title": "Dashboard de política efetiva",
+      "objective": "Identificar divergência entre segmentação pretendida e política aplicada.",
+      "prereq": [
+        "Grupos e políticas de laboratório",
+        "Acesso de consulta",
+        "Mapa esperado de associação"
+      ],
+      "steps": [
+        "Registrar política esperada por grupo",
+        "Consultar política efetiva dos hosts de teste",
+        "Comparar esperado versus observado",
+        "Investigar precedência/associação nos desvios",
+        "Documentar correção sem aplicá-la fora do teste"
+      ],
+      "evidence": "Matriz fictícia grupo → esperada → efetiva → motivo.",
+      "risks": "Correção apressada pode alterar muitos endpoints.",
+      "cleanup": "Reverter qualquer associação de teste e confirmar a matriz original."
+    },
+    {
+      "id": "lab18",
+      "category": "Dashboards",
+      "title": "Acessos, API e auditoria",
+      "objective": "Criar uma visão de governança para contas e integrações.",
+      "prereq": [
+        "Dados sanitizados ou conjunto fictício",
+        "Política de revisão de acesso",
+        "Sem segredos"
+      ],
+      "steps": [
+        "Listar identidades fictícias e finalidade",
+        "Associar funções/escopos e proprietário",
+        "Marcar último uso em faixas, não timestamps reais",
+        "Adicionar resultado de revisão e ação",
+        "Correlacionar uma alteração com auditoria"
+      ],
+      "evidence": "Tabela fictícia com conta, tipo, privilégio, último uso e decisão.",
+      "risks": "Exposição de e-mail, Client ID, token ou detalhes do tenant.",
+      "cleanup": "Excluir o conjunto de trabalho e fechar ações de teste sem mudar contas reais."
+    },
+    {
+      "id": "lab19",
+      "category": "Marketplace",
+      "title": "Avaliação segura de integração do Marketplace",
+      "objective": "Avaliar confiança, dados e permissões antes de instalar.",
+      "prereq": [
+        "Página oficial do Marketplace",
+        "Critérios internos de terceiros",
+        "Nenhuma instalação em produção"
+      ],
+      "steps": [
+        "Definir caso de uso e proprietário",
+        "Revisar fornecedor, dados acessados e permissões solicitadas",
+        "Comparar escopos com menor privilégio",
+        "Planejar piloto e critérios de saída",
+        "Registrar decisão de risco"
+      ],
+      "evidence": "Checklist de avaliação sem dados contratuais ou do tenant.",
+      "risks": "Integração pode ampliar acesso a dados ou ações.",
+      "cleanup": "Se houve piloto autorizado, desinstalar integração, revogar cliente e verificar resíduos conforme documentação."
+    }
+  ],
+  "telemetry": [
+    {
+      "id": "tele1",
+      "level": "Básico",
+      "title": "Instalação, serviço e versão",
+      "marker": "CCFA_SAFE_SENSOR_BASELINE",
+      "focus": "sensor",
+      "prereq": [
+        "VM Linux autorizada e suportada",
+        "Snapshot e documentação do tenant"
+      ],
+      "commands": [
+        "rpm -q falcon-sensor || dpkg-query -W falcon-sensor",
+        "systemctl status falcon-sensor --no-pager",
+        "systemctl is-enabled falcon-sensor"
+      ],
+      "expected": "Pacote instalado, serviço no estado previsto e versão compatível com a política.",
+      "evidence": "Somente instalado/não instalado, ativo/inativo e versão mascarada.",
+      "risk": "A saída pode conter identificadores.",
+      "rollback": "Nenhuma alteração; apagar a captura bruta.",
+      "stop": "Pare se estiver na máquina principal, a VM não for autorizada ou um comando pedir segredo.",
+      "query": "\"CCFA_SAFE_SENSOR_BASELINE\" | sort(<campo_timestamp>, order=desc)",
+      "labRef": "lab1",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele2",
+      "level": "Básico",
+      "title": "Comunicação, last seen e cobertura",
+      "marker": "CCFA_SAFE_LAST_SEEN",
+      "focus": "last seen / cobertura",
+      "prereq": [
+        "Sensor instalado",
+        "Acesso de leitura a Host Management"
+      ],
+      "commands": [
+        "date -u +%FT%TZ",
+        "systemctl is-active falcon-sensor"
+      ],
+      "expected": "O endpoint aparece dentro da janela esperada e contribui para a cobertura do grupo de teste.",
+      "evidence": "Horário relativo, status e contagem agregada; sem hostname/IP.",
+      "risk": "Relógio ou filtros podem gerar conclusão falsa.",
+      "rollback": "Remover filtros salvos.",
+      "stop": "Pare se precisar revelar hostname, IP, AID ou CID.",
+      "query": "\"CCFA_SAFE_LAST_SEEN\" | groupBy(<campo_sensor>, function=count())",
+      "labRef": "lab16",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele3",
+      "level": "Intermediário",
+      "title": "Políticas efetivas, saúde e RFM",
+      "marker": "CCFA_SAFE_POLICY_HEALTH",
+      "focus": "política / saúde / RFM",
+      "prereq": [
+        "Grupo exclusivo de teste",
+        "Permissão somente leitura"
+      ],
+      "commands": [
+        "systemctl is-active falcon-sensor",
+        "journalctl -u falcon-sensor --since '-15 min' --no-pager"
+      ],
+      "expected": "Políticas efetivas coincidem com a intenção; saúde normal e RFM ausente, ou causa documentada.",
+      "evidence": "Matriz fictícia esperada/efetiva e classificação de saúde.",
+      "risk": "Journal pode conter dados do endpoint.",
+      "rollback": "Apagar exportação temporária.",
+      "stop": "Pare se observar falha real do serviço, RFM inesperado ou impacto.",
+      "query": "\"CCFA_SAFE_POLICY_HEALTH\" | groupBy(<campo_acao_sensor>, function=count())",
+      "labRef": "lab17",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele4",
+      "level": "Avançado",
+      "title": "Atualização por anel e cobertura",
+      "marker": "CCFA_SAFE_UPDATE_RING",
+      "focus": "versão / rollout",
+      "prereq": [
+        "Política e grupo piloto aprovados",
+        "Critério de rollback"
+      ],
+      "commands": [
+        "rpm -q falcon-sensor || dpkg-query -W falcon-sensor",
+        "systemctl is-active falcon-sensor"
+      ],
+      "expected": "Versão muda somente no anel esperado; serviço saudável e cobertura estável.",
+      "evidence": "Distribuição agregada por versão antes/depois e decisão go/no-go.",
+      "risk": "Atualização pode afetar compatibilidade.",
+      "rollback": "Usar somente o procedimento oficial aprovado para voltar à política/versão anterior.",
+      "stop": "Pare se saúde degradar, surgir RFM, cobertura cair ou hosts fora do piloto forem afetados.",
+      "query": "\"CCFA_SAFE_UPDATE_RING\" | groupBy(<campo_versao_sensor>, function=count()) | sort()",
+      "labRef": "lab7",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele5",
+      "level": "Básico",
+      "title": "Processos encadeados benignos",
+      "marker": "CCFA_SAFE_TEST_PROCESS_CHAIN",
+      "focus": "processo / usuário",
+      "prereq": [
+        "Script em dry-run revisado",
+        "sh, printf e sleep"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run process-chain",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm process-chain"
+      ],
+      "expected": "Localizar o marcador e observar a relação entre processos benignos.",
+      "evidence": "Evento com marcador, horário e usuário mascarados.",
+      "risk": "Baixo; processos curtos e arquivo temporário.",
+      "rollback": "./cleanup-safe-tests.sh --execute --confirm-authorized-vm",
+      "stop": "Pare se sair do diretório temporário, houver alerta inesperado ou uso anormal de CPU.",
+      "query": "\"CCFA_SAFE_TEST_PROCESS_CHAIN\" | select([<campo_processo>, <campo_usuario>, <campo_host>, <campo_timestamp>])",
+      "labRef": "lab12",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele6",
+      "level": "Básico",
+      "title": "Arquivo temporário, hash, rename e delete",
+      "marker": "CCFA_SAFE_TEST_FILE_LIFECYCLE",
+      "focus": "arquivo / hash",
+      "prereq": [
+        "sha256sum",
+        "Diretório temporário dedicado"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run file-lifecycle",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm file-lifecycle"
+      ],
+      "expected": "Eventos/processos correlacionáveis ao arquivo inerte e ao SHA-256 local.",
+      "evidence": "Nome fictício, hash inerte e horários relativos.",
+      "risk": "Não enviar arquivo/hash a serviço público sem autorização.",
+      "rollback": "./cleanup-safe-tests.sh --execute --confirm-authorized-vm",
+      "stop": "Pare se o caminho não estiver sob /tmp/ccfa-safe-tests-$UID.",
+      "query": "\"CCFA_SAFE_TEST_FILE_LIFECYCLE\" | select([<campo_arquivo>, <campo_hash>, <campo_usuario>, <campo_timestamp>])",
+      "labRef": "lab9",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele7",
+      "level": "Intermediário",
+      "title": "Compactação de artefatos inertes",
+      "marker": "CCFA_SAFE_TEST_ARCHIVE",
+      "focus": "processo / arquivo",
+      "prereq": [
+        "tar e gzip",
+        "Texto inerte do script"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run archive",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm archive"
+      ],
+      "expected": "Processo de compactação e .tar.gz localizáveis conforme a telemetria disponível.",
+      "evidence": "Marcador, processo e caminho temporário sanitizado.",
+      "risk": "Pode gerar ruído de telemetria.",
+      "rollback": "./cleanup-safe-tests.sh --execute --confirm-authorized-vm",
+      "stop": "Pare se a origem não for o texto inerte criado pelo script.",
+      "query": "\"CCFA_SAFE_TEST_ARCHIVE\" | groupBy(<campo_processo>, function=count())",
+      "labRef": "lab10",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele8",
+      "level": "Intermediário",
+      "title": "Consulta DNS controlada",
+      "marker": "CCFA_SAFE_TEST_DNS",
+      "focus": "rede / DNS",
+      "prereq": [
+        "Rede de laboratório autorizada",
+        "example.com ou domínio controlado aprovado"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run dns",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm dns"
+      ],
+      "expected": "Processo encontrado; eventos DNS dependem da telemetria/licença/configuração.",
+      "evidence": "Domínio de teste, horário relativo e presença/ausência explicada.",
+      "risk": "Consulta sai da VM e pode ser registrada.",
+      "rollback": "Limpeza remove apenas logs locais.",
+      "stop": "Pare se o domínio não for aprovado, houver proxy de produção ou egress for proibido.",
+      "query": "\"CCFA_SAFE_TEST_DNS\" | select([<campo_processo>, <campo_dns>, <campo_host>, <campo_timestamp>])",
+      "labRef": "lab16",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele9",
+      "level": "Intermediário",
+      "title": "HTTP controlado",
+      "marker": "CCFA_SAFE_TEST_HTTP",
+      "focus": "rede / processo",
+      "prereq": [
+        "Egress autorizado para example.com",
+        "curl"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run http",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm http"
+      ],
+      "expected": "Processo curl e, se disponível, conexão associada podem ser encontrados.",
+      "evidence": "Destino aprovado, status e timestamp relativo.",
+      "risk": "Gera tráfego mínimo; proxy pode registrar.",
+      "rollback": "Nenhum corpo é mantido; executar limpeza.",
+      "stop": "Pare com redirecionamento inesperado, certificado inválido ou destino diferente.",
+      "query": "\"CCFA_SAFE_TEST_HTTP\" | select([<campo_processo>, <campo_destino_rede>, <campo_timestamp>])",
+      "labRef": "lab16",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele10",
+      "level": "Intermediário",
+      "title": "sudo sem alteração",
+      "marker": "CCFA_SAFE_TEST_SUDO_NO_CHANGE",
+      "focus": "usuário / processo",
+      "prereq": [
+        "Política permite teste",
+        "Conta de laboratório"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run sudo-check",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm sudo-check"
+      ],
+      "expected": "Validação não interativa retorna sucesso ou negação sem alterar o sistema.",
+      "evidence": "Resultado binário e usuário mascarado; nunca senha.",
+      "risk": "Pode gerar evento de autenticação.",
+      "rollback": "Nenhuma mudança; remover log local.",
+      "stop": "Pare antes de prompt de senha; o script usa sudo -n.",
+      "query": "\"CCFA_SAFE_TEST_SUDO_NO_CHANGE\" | groupBy(<campo_usuario>, function=count())",
+      "labRef": "lab5",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele11",
+      "level": "Avançado",
+      "title": "Persistência apenas simulada",
+      "marker": "CCFA_SAFE_TEST_PERSISTENCE_SIM",
+      "focus": "arquivo / processo",
+      "prereq": [
+        "Diretório temporário",
+        "Nenhum local de autostart real"
+      ],
+      "commands": [
+        "./run-safe-telemetry-tests.sh --dry-run persistence-sim",
+        "./run-safe-telemetry-tests.sh --execute --confirm-authorized-vm persistence-sim"
+      ],
+      "expected": "Arquivo .simulated existe só em /tmp e nenhum mecanismo de inicialização é alterado.",
+      "evidence": "Marcador, caminho temporário e confirmação de ausência de persistência real.",
+      "risk": "O nome simula a intenção; não produz persistência.",
+      "rollback": "./cleanup-safe-tests.sh --execute --confirm-authorized-vm",
+      "stop": "Pare se surgir cron, systemd enable, profile, SSH keys ou autostart real.",
+      "query": "\"CCFA_SAFE_TEST_PERSISTENCE_SIM\" | select([<campo_arquivo>, <campo_processo>, <campo_timestamp>])",
+      "labRef": "lab10",
+      "script": "run-safe-telemetry-tests.sh"
+    },
+    {
+      "id": "tele12",
+      "level": "Avançado",
+      "title": "Quarentena com EICAR",
+      "marker": "CCFA_SAFE_TEST_EICAR",
+      "focus": "hash / quarentena / auditoria",
+      "prereq": [
+        "Aprovação explícita",
+        "Política de laboratório",
+        "VM descartável"
+      ],
+      "commands": [
+        "./eicar-quarantine-test.sh --dry-run",
+        "./eicar-quarantine-test.sh --execute --confirm-authorized-vm"
+      ],
+      "expected": "Conforme política/licença, o EICAR pode ser detectado/quarentenado; ausência exige troubleshooting.",
+      "evidence": "SHA-256 local, detecção/quarentena, análise e auditoria sanitizadas.",
+      "risk": "EICAR é inofensivo, mas dispara controles; não enviar a serviço público.",
+      "rollback": "./cleanup-safe-tests.sh --execute --confirm-authorized-vm; restaurar só se aprovado ou remover na console.",
+      "stop": "Pare se não for a string EICAR canônica, a VM não for descartável ou outro host for atingido.",
+      "query": "\"CCFA_SAFE_TEST_EICAR\" | select([<campo_hash>, <campo_acao_quarentena>, <campo_usuario>, <campo_host>, <campo_timestamp>])",
+      "labRef": "lab9",
+      "script": "eicar-quarantine-test.sh"
+    },
+    {
+      "id": "tele13",
+      "level": "Avançado",
+      "title": "Auditoria de restauração/remoção",
+      "marker": "CCFA_SAFE_TEST_QUARANTINE_AUDIT",
+      "focus": "quarentena / usuário",
+      "prereq": [
+        "EICAR já quarentenado",
+        "Função e mudança aprovadas"
+      ],
+      "commands": [
+        "Console: revisar detalhes",
+        "Console: restaurar para teste OU remover, conforme aprovação",
+        "Revisar audit log"
+      ],
+      "expected": "A ação aparece na auditoria com ator, horário e resultado disponíveis.",
+      "evidence": "Ação e resultado sanitizados.",
+      "risk": "Restauração pode gerar nova detecção.",
+      "rollback": "Preferir remoção; se restaurado, executar limpeza.",
+      "stop": "Pare sem aprovação explícita para restauração.",
+      "query": "\"CCFA_SAFE_TEST_QUARANTINE_AUDIT\" | groupBy(<campo_acao_quarentena>, function=count()) | sort()",
+      "labRef": "lab15",
+      "script": "eicar-quarantine-test.sh"
+    },
+    {
+      "id": "tele14",
+      "level": "Avançado",
+      "title": "Troubleshooting de telemetria ausente",
+      "marker": "CCFA_SAFE_TEST_TROUBLESHOOT",
+      "focus": "sensor / timestamp / cobertura",
+      "prereq": [
+        "Teste benigno concluído",
+        "Janela registrada"
+      ],
+      "commands": [
+        "Confirmar UTC",
+        "Confirmar saúde/last seen sem alterar configuração",
+        "Ampliar a janela gradualmente"
+      ],
+      "expected": "Classificar entre atraso, filtro, campo, view, licença/configuração ou ausência real.",
+      "evidence": "Checklist e decisão, sem evento bruto.",
+      "risk": "Buscas amplas podem consumir recursos.",
+      "rollback": "Remover queries salvas de teste.",
+      "stop": "Pare antes de mudar política sem change aprovado ou afetar desempenho.",
+      "query": "\"CCFA_SAFE_TEST_TROUBLESHOOT\" | groupBy(<campo_host>, function=count())",
+      "labRef": "lab2",
+      "script": "run-safe-telemetry-tests.sh"
+    }
+  ],
+  "queryGuide": [
+    {
+      "level": "1",
+      "title": "Confirme a superfície",
+      "body": "Identifique Advanced Event Search, Event Search ou LogScale e o repositório/view correto; depende do tenant."
+    },
+    {
+      "level": "2",
+      "title": "Comece por texto livre",
+      "body": "Pesquise o marcador entre aspas, por exemplo \"CCFA_SAFE_TEST_PROCESS_CHAIN\", em janela curta."
+    },
+    {
+      "level": "3",
+      "title": "Inspecione os campos reais",
+      "body": "Abra um evento e substitua <campo_…> somente pelos nomes exibidos no tenant ou no Events Data Dictionary."
+    },
+    {
+      "level": "4",
+      "title": "Filtre cedo",
+      "body": "Aplique tempo, view, marcador e valores específicos antes de transformar. AND/OR/NOT combinam condições; use parênteses."
+    },
+    {
+      "level": "5",
+      "title": "Transforme em pipeline",
+      "body": "Use | para encadear. select() reduz colunas; groupBy(..., function=count()) agrega; sort() ordena."
+    },
+    {
+      "level": "6",
+      "title": "Cuide da performance",
+      "body": "Janela curta, filtros seletivos antes de regex/join/agregações, poucos campos e limite de resultado."
+    },
+    {
+      "level": "7",
+      "title": "Sem resultado não é ausência",
+      "body": "Revise UTC, view, parser/esquema, caixa, ingestão, saúde/last seen, licença e política."
+    }
+  ],
+  "queryExercises": [
+    {
+      "id": "qe1",
+      "type": "Leitura",
+      "prompt": "O que faz o caractere | em CQL?",
+      "options": [
+        "Encadeia a saída de uma expressão à próxima",
+        "Expõe um token",
+        "Seleciona uma política",
+        "Comenta toda a query"
+      ],
+      "answer": 0,
+      "explanation": "CQL usa um pipeline: cada expressão recebe o conjunto resultante da anterior."
+    },
+    {
+      "id": "qe2",
+      "type": "Correção",
+      "prompt": "Qual busca inicial é mais segura quando você ainda não conhece os campos?",
+      "options": [
+        "Marcador de texto livre em janela curta",
+        "Inventar process_name",
+        "Executar join sem filtro",
+        "Buscar todo o histórico"
+      ],
+      "answer": 0,
+      "explanation": "Texto livre permite encontrar um evento e inspecionar seu esquema real."
+    },
+    {
+      "id": "qe3",
+      "type": "Performance",
+      "prompt": "Qual ordem tende a ser mais eficiente?",
+      "options": [
+        "Filtrar seletivamente antes de agregar",
+        "Agregar tudo antes",
+        "Regex global antes do tempo",
+        "Join amplo sem limite"
+      ],
+      "answer": 0,
+      "explanation": "Reduzir cedo o conjunto diminui o custo das etapas posteriores."
+    },
+    {
+      "id": "qe4",
+      "type": "Construção",
+      "prompt": "Qual molde conta eventos por um campo real?",
+      "options": [
+        "<filtro> | groupBy(<campo>, function=count())",
+        "SELECT * FROM malware",
+        "token | password",
+        "<campo> := segredo"
+      ],
+      "answer": 0,
+      "explanation": "groupBy com count é documentado; o campo deve vir do evento real."
+    },
+    {
+      "id": "qe5",
+      "type": "Troubleshooting",
+      "prompt": "Sem resultado após o teste. Verifique primeiro:",
+      "options": [
+        "Janela/UTC, view, marcador, ingestão e saúde/last seen",
+        "Criar malware",
+        "Desabilitar sensor",
+        "Publicar CID"
+      ],
+      "answer": 0,
+      "explanation": "Ausência pode ser de tempo, escopo, ingestão ou esquema."
+    },
+    {
+      "id": "qe6",
+      "type": "Operadores",
+      "prompt": "Por que usar parênteses ao combinar alternativas?",
+      "options": [
+        "Para explicitar precedência lógica",
+        "Para guardar credenciais",
+        "Para instalar sensor",
+        "Para forçar quarentena"
+      ],
+      "answer": 0,
+      "explanation": "Parênteses evitam ambiguidade com AND/OR."
+    },
+    {
+      "id": "qe7",
+      "type": "Privacidade",
+      "prompt": "O que deve ser parametrizado/mascarado?",
+      "options": [
+        "Hostname, IP, usuário, hashes e IDs do tenant",
+        "O nome CQL",
+        "count()",
+        "O pipe"
+      ],
+      "answer": 0,
+      "explanation": "Queries compartilhadas não devem carregar identificadores reais."
+    },
+    {
+      "id": "qe8",
+      "type": "Quarentena",
+      "prompt": "Como iniciar sem inventar campos?",
+      "options": [
+        "Localizar marcador/EICAR autorizado e inspecionar o evento",
+        "Usar placeholder literalmente",
+        "Enviar a site público",
+        "Buscar todo o histórico"
+      ],
+      "answer": 0,
+      "explanation": "Encontre o evento por texto/tempo; substitua o placeholder pelo campo real."
+    }
+  ],
+  "glossary": [
+    [
+      "Política efetiva",
+      "Effective policy",
+      "Configuração que de fato se aplica a um host após associações e precedência."
+    ],
+    [
+      "Grupo de hosts",
+      "Host group",
+      "Conjunto estático ou dinâmico usado para segmentação e direcionamento."
+    ],
+    [
+      "Modo de funcionalidade reduzida",
+      "Reduced Functionality Mode (RFM)",
+      "Estado em que capacidades do sensor ficam reduzidas e requerem diagnóstico."
+    ],
+    [
+      "Política de prevenção",
+      "Prevention policy",
+      "Conjunto de definições que orienta detecção e prevenção no endpoint."
+    ],
+    [
+      "Política de atualização do sensor",
+      "Sensor update policy",
+      "Controla versões e o processo de atualização do sensor."
+    ],
+    [
+      "Contenção de rede",
+      "Network containment",
+      "Restrição de comunicação de um host para limitar propagação, conforme política."
+    ],
+    [
+      "Exclusão de contenção",
+      "Containment exclusion",
+      "Endereço/sub-rede cuja comunicação pode permanecer permitida durante contenção."
+    ],
+    [
+      "Indicador de comprometimento",
+      "Indicator of Compromise (IOC)",
+      "Observável configurado, como um hash, relevante a uma ameaça ou postura."
+    ],
+    [
+      "Indicador de ataque",
+      "Indicator of Attack (IOA)",
+      "Padrão de comportamento que pode indicar atividade adversária."
+    ],
+    [
+      "IOA personalizada",
+      "Custom IOA",
+      "Regra comportamental definida pelo cliente para seu contexto."
+    ],
+    [
+      "Exclusão",
+      "Exclusion",
+      "Exceção controlada que reduz correspondência ou impacto em um escopo específico."
+    ],
+    [
+      "Falso positivo",
+      "False positive",
+      "Atividade legítima classificada incorretamente como maliciosa/relevante."
+    ],
+    [
+      "Resposta em tempo real",
+      "Real Time Response (RTR)",
+      "Capacidade de investigação e remediação remota por comandos autorizados."
+    ],
+    [
+      "Função",
+      "Role",
+      "Conjunto de permissões atribuído a uma identidade."
+    ],
+    [
+      "Controle de acesso baseado em função",
+      "Role-Based Access Control (RBAC)",
+      "Modelo que concede acesso por funções alinhadas às tarefas."
+    ],
+    [
+      "Menor privilégio",
+      "Least privilege",
+      "Concessão apenas das permissões mínimas necessárias."
+    ],
+    [
+      "Cliente de API",
+      "API client",
+      "Identidade de máquina com escopos próprios para integrações."
+    ],
+    [
+      "Escopo",
+      "Scope",
+      "Permissão que delimita famílias de operações de uma API."
+    ],
+    [
+      "Token de acesso",
+      "Access token",
+      "Credencial temporária emitida após autenticação; deve permanecer no backend."
+    ],
+    [
+      "Precedência",
+      "Precedence",
+      "Ordem usada para resolver qual política se aplica quando há múltiplas candidatas."
+    ],
+    [
+      "Anel piloto",
+      "Pilot ring",
+      "Grupo pequeno que recebe uma mudança antes da expansão."
+    ],
+    [
+      "Rollout",
+      "Rollout",
+      "Implantação progressiva e controlada de versão ou configuração."
+    ],
+    [
+      "Reversão",
+      "Rollback",
+      "Retorno planejado ao estado anterior conhecido."
+    ],
+    [
+      "Gatilho",
+      "Trigger",
+      "Evento ou agenda que inicia um workflow."
+    ],
+    [
+      "Condição de guarda",
+      "Guard condition",
+      "Regra que impede execução indevida ou repetida de uma automação."
+    ],
+    [
+      "Idempotência",
+      "Idempotency",
+      "Propriedade de repetir uma operação sem criar efeitos adicionais indesejados."
+    ],
+    [
+      "Trilha de auditoria",
+      "Audit trail",
+      "Registro de ações usado para atribuição, investigação e conformidade."
+    ],
+    [
+      "Última comunicação",
+      "Last seen",
+      "Momento mais recente em que o host reportou à plataforma."
+    ],
+    [
+      "Quarentena",
+      "Quarantine",
+      "Isolamento controlado de arquivo para impedir uso e apoiar resposta."
+    ],
+    [
+      "Marketplace",
+      "Marketplace",
+      "Catálogo oficial de apps e integrações compatíveis com Falcon."
+    ]
+  ]
+}

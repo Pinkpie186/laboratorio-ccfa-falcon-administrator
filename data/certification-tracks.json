@@ -1,0 +1,62 @@
+{
+  "programUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+  "consultedAt": "2026-09-10",
+  "certifications": [
+    {
+      "code": "CCFP", "title": "CrowdStrike Certified Falcon Practitioner", "shortTitle": "Falcon Practitioner", "position": 1, "accent": "#58b9ff", "guideUpdatedOn": "2026-07-01",
+      "description": "Fundamentos da plataforma, fluxos operacionais centrais, IA e automação.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/ccfp-certification-exam-guide.pdf",
+      "domains": ["Cybersecurity Fundamentals", "Falcon Platform Overview", "Core Operational Workflows", "AI and Automation in Falcon"],
+      "documents": [{"pattern":"Falcon Main View","relevance":"essential"},{"pattern":"Charlotte AI","relevance":"essential"},{"pattern":"Endpoint Security","relevance":"essential"},{"pattern":"Falcon Management","relevance":"supporting"},{"pattern":"Counter Adversary Operations","relevance":"supporting"},{"pattern":"Next-Gen SIEM","relevance":"supporting"}]
+    },
+    {
+      "code": "CCFA", "title": "CrowdStrike Certified Falcon Administrator", "shortTitle": "Falcon Administrator", "position": 2, "accent": "#ff5148", "guideUpdatedOn": "2026-02-01",
+      "description": "Administração da plataforma, sensores, hosts, grupos, políticas, regras, painéis e workflows.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/ccfa-certification-guide.pdf",
+      "domains": ["User Management", "Sensor Deployment", "Host Management and Setup", "Group Creation", "Policy Application", "Rule Configuration", "Dashboards and Reports", "Workflows"],
+      "documents": [{"pattern":"Sensor Deployment and Maintenance","relevance":"essential"},{"pattern":"Falcon Management","relevance":"essential"},{"pattern":"Endpoint Security","relevance":"essential"},{"pattern":"CrowdStrike Store","relevance":"essential"},{"pattern":"CrowdStrike APIs","relevance":"essential"},{"pattern":"Audit Logs","relevance":"supporting"},{"pattern":"Fusion SOAR","relevance":"supporting"}]
+    },
+    {
+      "code": "CCFR", "title": "CrowdStrike Certified Falcon Responder", "shortTitle": "Falcon Responder", "position": 3, "accent": "#ffb84d", "guideUpdatedOn": "2026-02-01",
+      "description": "Triagem, investigação, análise de detecções, Event Search e resposta com RTR.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/CCFR_CertificationGuide.pdf",
+      "domains": ["MITRE ATT&CK Framework Application", "Detection Analysis", "Event Search", "Event Investigation", "Search Tools", "Falcon Real Time Response (RTR)"],
+      "documents": [{"pattern":"Falcon Management","relevance":"essential"},{"pattern":"Endpoint Security","relevance":"essential"},{"pattern":"Event Investigation","relevance":"essential"},{"pattern":"Tools and Reference","relevance":"supporting"},{"pattern":"Audit Logs","relevance":"supporting"}]
+    },
+    {
+      "code": "CCFH", "title": "CrowdStrike Certified Falcon Hunter", "shortTitle": "Falcon Hunter", "position": 4, "accent": "#ad8cff", "guideUpdatedOn": "2026-07-01",
+      "description": "Threat hunting, metodologia investigativa, analytics e busca avançada de eventos.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/ccfh-certification-exam-guide.pdf",
+      "domains": ["MITRE ATT&CK Frameworks", "Detection Analysis", "Search and Investigation Tools", "Event Search", "Reports and References", "Hunting Analytics", "Hunting Methodology"],
+      "documents": [{"pattern":"Falcon Management","relevance":"essential"},{"pattern":"Endpoint Security","relevance":"essential"},{"pattern":"Event Investigation","relevance":"essential"},{"pattern":"Tools and Reference","relevance":"essential"},{"pattern":"Counter Adversary Operations","relevance":"supporting"},{"pattern":"Next-Gen SIEM","relevance":"supporting"},{"pattern":"Project Kestrel","relevance":"supporting"}]
+    },
+    {
+      "code": "CCSA", "title": "CrowdStrike Certified SIEM Analyst", "shortTitle": "SIEM Analyst", "position": 5, "accent": "#41d6a3", "guideUpdatedOn": "2026-01-01",
+      "description": "Consultas, analytics, detecções, investigação de incidentes e comunicação.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/crowdstrike-university-ccsa-certification-exam-guide.pdf",
+      "domains": ["Querying and Analytics", "Detection Logic and Alert Analytics", "Incident Investigation", "Reporting and Communication"],
+      "documents": [{"pattern":"Next-Gen SIEM","relevance":"essential"},{"pattern":"Event Investigation","relevance":"essential"},{"pattern":"Fusion SOAR","relevance":"essential"},{"pattern":"Tools and Reference","relevance":"supporting"},{"pattern":"CrowdStrike APIs","relevance":"supporting"}]
+    },
+    {
+      "code": "CCSE", "title": "CrowdStrike Certified SIEM Engineer", "shortTitle": "SIEM Engineer", "position": 6, "accent": "#22c7df", "guideUpdatedOn": "2026-02-01",
+      "description": "Ingestão, parsing, criação de conteúdo, automação, integrações e gestão de acesso.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/ccse-certification-exam-guide.pdf",
+      "domains": ["User Management", "Data Ingestion", "Parsing", "Content Creation", "Automation and Integration"],
+      "documents": [{"pattern":"Next-Gen SIEM","relevance":"essential"},{"pattern":"CrowdStrike APIs","relevance":"essential"},{"pattern":"Fusion SOAR","relevance":"essential"},{"pattern":"IT Automation","relevance":"supporting"},{"pattern":"Foundry","relevance":"supporting"}]
+    },
+    {
+      "code": "CCIS", "title": "CrowdStrike Certified Identity Specialist", "shortTitle": "Identity Specialist", "position": 7, "accent": "#f37fc3", "guideUpdatedOn": "2026-03-01",
+      "description": "Identity Protection, Zero Trust, avaliação de riscos, políticas, conectores, MFA e APIs.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/Guide-_-CSU-Exam-Guide-CrowdStrike-Certified-Cloud-Specialist-CCIS_new.pdf",
+      "domains": ["Zero Trust Architecture", "Identity Protection Tenets", "Falcon Identity Protection Fundamentals", "Domain Security Assessment", "Risk Assessment", "User Assessment", "Threat Hunting and Investigation", "Risk Management with Policy Rules", "Configuration and Connectors", "MFA and IDaaS Configuration Basics", "Falcon Fusion for Identity Protection", "GraphQL API"],
+      "documents": [{"pattern":"Identity Protection and MFA","relevance":"essential"},{"pattern":"Fusion SOAR","relevance":"essential"},{"pattern":"CrowdStrike APIs","relevance":"supporting"},{"pattern":"Audit Logs","relevance":"supporting"}]
+    },
+    {
+      "code": "CCCS", "title": "CrowdStrike Certified Cloud Specialist", "shortTitle": "Cloud Specialist", "position": 8, "accent": "#88d45f", "guideUpdatedOn": "2026-02-01",
+      "description": "Postura, registro de contas, políticas, proteção pre-runtime/runtime, findings e remediação em nuvem.",
+      "guideUrl": "https://www.crowdstrike.com/content/dam/crowdstrike/marketing/en-us/documents/pdfs/crowdstrike-university/cccs-certification-exam-guide.pdf",
+      "domains": ["Falcon Cloud Security Features and Services", "Cloud Account Registration", "Cloud Security Policies and Rules", "Pre-Runtime Protection", "Runtime Protection", "Findings and Detection Analysis", "Remediating and Reporting Issues"],
+      "documents": [{"pattern":"Cloud Security","relevance":"essential"},{"pattern":"Exposure Management","relevance":"supporting"},{"pattern":"CrowdStrike APIs","relevance":"supporting"},{"pattern":"Sensor Deployment and Maintenance","relevance":"supporting"}]
+    }
+  ]
+}

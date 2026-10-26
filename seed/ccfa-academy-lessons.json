@@ -1,0 +1,79 @@
+{
+  "source": "https://university.crowdstrike.com/learn/learning-plans/111/falcon-administrator",
+  "consultedAt": "2026-10-26",
+  "notice": "Títulos conferidos no índice autenticado. Um resumo só recebe content_reviewed quando o conteúdo daquela aula foi efetivamente observado; aulas sem resumo não devem ser apresentadas como conteúdo lido.",
+  "courses": {
+    "FALCON 100": [
+      {"module":"Falcon Platform Architecture Introduction","lessons":[
+        ["Introduction to Falcon","A aula situa o Falcon como uma plataforma cloud-native de segurança, não como uma coleção de ferramentas isoladas. O administrador começa pelo agente leve nos endpoints e pelo console unificado, que reúnem telemetria e operações de diferentes áreas de risco."],
+        ["The Falcon Platform","A arquitetura combina agente, camada de dados, análise assistida por IA, workflows e módulos especializados. Essa base comum permite relacionar sinais de endpoint, identidade, nuvem e outras fontes antes de decidir como prevenir, investigar ou responder."]
+      ]},
+      {"module":"Core Falcon Platform Modules","lessons":[
+        ["The Falcon Platform Modules","O curso percorre os módulos centrais a partir do problema que cada um resolve: Endpoint Security observa processos e aplica prevenção; Cloud Security dá visibilidade a ativos e postura; Identity Protection contextualiza usuários e credenciais; Next-Gen SIEM correlaciona eventos. A utilidade para o administrador está em conectar esses contextos, não em analisar cada alerta isoladamente."]
+      ]},
+      {"module":"Leveraging the Falcon Platform","lessons":[
+        ["SOC Analyst: Jane","O cenário de operações mostra como alertas e contexto compartilhado ajudam a priorizar a fila do SOC. Fusion SOAR e Foundry aparecem como meios de transformar ações repetitivas em fluxos controlados, mantendo revisão humana nos pontos sensíveis."],
+        ["Security Administrator: Noel","O administrador parte da cobertura: identifica ativos sem proteção, planeja a instalação de sensores e verifica se os hosts passam a reportar. Depois acompanha políticas e saúde para evitar que um sensor instalado seja confundido com proteção efetiva."],
+        ["Cloud Specialist: Sarah","O cenário de nuvem aproxima inventário, configuração e postura dos sinais de segurança. A leitura conjunta ajuda a priorizar exposição e alterações de configuração com base no contexto do ativo."],
+        ["Incident Responder: Tim","Na resposta a incidentes, uma detecção ganha contexto pela árvore de processos e pela cronologia. Contenção e Real Time Response são recursos para ações autorizadas e auditáveis depois da triagem, não substitutos da investigação."],
+        ["Identity Specialist: Mark","O especialista de identidade observa sinais ligados a usuários, credenciais e acesso. A visibilidade do provedor de identidade e controles como MFA baseado em risco ajudam a interpretar e limitar atividades anômalas."],
+        ["Threat Hunter: Tracey","A caça parte de sinais e inteligência para formular hipóteses e investigar eventos. Alertas do OverWatch e pesquisa avançada ajudam a ampliar o contexto, mas os achados precisam ser validados antes de virarem resposta."],
+        ["Risk Manager: Morgan","O cenário de risco reúne exposição, vulnerabilidades e proteção de dados para apoiar priorização e prestação de contas. O valor da plataforma está em relacionar riscos técnicos com ativos e responsabilidades operacionais."],
+        ["AI Governance Lead: Riley","O cenário aborda governança do uso de IA: visibilidade, políticas e revisão de riscos. A automação auxilia a análise, enquanto decisões e exceções continuam sujeitas a controles e responsáveis definidos."],
+        ["Course Wrap-up","A conclusão retoma a arquitetura unificada e os exemplos de equipes que compartilham telemetria, investigação e resposta. O próximo passo de estudo é aprofundar o console e as configurações administrativas."]
+      ]}
+    ],
+    "FALCON 101": [
+      {"module":"Getting Started with the Falcon Console","lessons":["Navigating the Falcon Console","Understanding Sensor Installation",["Wrap-up","O console centraliza navegação, monitoramento e investigação. As áreas disponíveis dependem da função do usuário; dashboards e widgets podem organizar a visão, enquanto o sensor fornece os eventos e detecções que sustentam a análise."]]},
+      {"module":"Host Setup and Management","lessons":["Managing Hosts and Host Groups",["Managing Falcon Users","A administração de usuários combina funções e permissões, inclusive escopos quando aplicáveis. O objetivo é conceder o acesso necessário para cada tarefa, revisar privilégios e manter a trilha de alterações auditável."],"Wrap-up"]},
+      {"module":"Endpoint Security Deep-Dive","lessons":[["Monitoring Endpoint Detections","A investigação começa pela detecção e seu contexto: atividade de prevenção, comportamento observado, linha do tempo e relação entre processos. Atribuir e acompanhar a detecção dá continuidade à triagem; severidade isolada não basta para concluir o caso."],["Managing Prevention Policies","As políticas definem como capacidades de prevenção e detecção atuam sobre grupos de hosts. Ajustes de sensibilidade, comportamento e IOAs personalizadas precisam ser testados e alinhados à tolerância a risco antes de uma implantação ampla."],"IOC Management and Exclusions","Wrap-up"]},
+      {"module":"Identity Protection and Next-Gen SIEM","lessons":["Understanding Identity Protection","Introduction to Next-Gen SIEM","Wrap-up"]},
+      {"module":"Cloud Security","lessons":["Visibility across the Cloud","Using Falcon Cloud Security","Wrap-up"]},
+      {"module":"Real Time Response (RTR)","lessons":["What is Real Time Response?","Running Commands","Wrap-up"]},
+      {"module":"Threat Intelligence and Charlotte AI","lessons":["Falcon Threat Intelligence","Charlotte AI Queries","Wrap-up"]},
+      {"module":"Summary","lessons":["Key Takeaways"]}
+    ],
+    "FALCON 102": [
+      {"module":"Setting up users and planning implementation","lessons":["Setting up and managing users","Establishing an implementation strategy","Planning checklist and resources"]},
+      {"module":"Configuring single sign-on, alert notifications, and prevention policies","lessons":["Configuring single sign-on (optional)","Setting up alert notifications","Configuring prevention policies"]},
+      {"module":"Create sensor update policies and additional configurations","lessons":["Creating sensor update policies","Configuring MDM profiles (optional)","Configuring OAuth2 for APIs (optional)",["Deploying the Falcon sensor to endpoints","A implantação segue etapas controladas: testar em pré-produção, selecionar um piloto, ampliar iterativamente e só então chegar à produção. Em cada fase, o administrador confirma registro do sensor, funcionamento de aplicações críticas, responsividade e comunicação antes de expandir o rollout."]]},
+      {"module":"Managing host groups for endpoint policy enforcement","lessons":["Understanding host groups","Static vs. Dynamic host groups","Creating and configuring host groups","Assigning and validating policies for host groups"]},
+      {"module":"Managing false positives and exclusions","lessons":["Understanding false positives","Detection types and exclusion methods","Creating exclusions in the Falcon console","Managing exclusions: Best practices and risk mitigation"]},
+      {"module":"Navigating and optimizing Falcon support resources","lessons":["Accessing the Falcon Support Portal","Engaging with support","Leveraging knowledge and notifications","Continuing education and community engagement","Course wrap-up"]}
+    ],
+    "FALCON 104": [
+      {"module":"Introduction to Endpoint Security","lessons":["Why Endpoint Visibility Matters","How Falcon sees Everything","Common Endpoint Threat Patterns","Wrap-up"]},
+      {"module":"Detection Lifestyle in Action","lessons":["From Behavior to Detection","How are Detections Recorded?","Wrap-up"]},
+      {"module":"Investigating Detections with Context","lessons":["From Alert to Investigation","Exploring the Endpoint Detections Page","Investigating a Detection: A Nation-State Adversary Scenario","Mapping Adversaries to MITRE","Answering questions with Endpoint detections","Wrap-up"]}
+    ],
+    "FALCON 105": [
+      {"module":"Introduction and pre-installation","lessons":["Introduction","Pre-Installation Requirements","Network Requirements","Knowledge Check","Wrap up"]},
+      {"module":"Policy settings","lessons":["Prevention Policy","Sensor Update Policies","Content Update Policies","Policy Precedence","Knowledge Check","Wrap-up"]},
+      {"module":"Windows sensor installation","lessons":["Installing the Falcon sensor for Windows","Uninstalling the Falcon sensor for Windows","Wrap-up"]},
+      {"module":"MacOS sensor installation","lessons":["MacOS sensor installation","MacOS sensor uninstallation","Wrap up"]},
+      {"module":"Linux sensor installation","lessons":["Linux sensor installation","Knowledge Check","Wrap-up"]},
+      {"module":"Virtual Machine installation","lessons":["Installing the Falcon sensor on a Virtual Machine (VM)","Troubleshooting and modifying existing templates","Wrap-up"]},
+      {"module":"Troubleshooting and course wrap-up","lessons":["Troubleshooting Tips","Troubleshooting an installation","Troubleshooting general sensor issues","Wrap-up"]}
+    ],
+    "FALCON 106": [
+      {"module":"Dashboards Foundations","lessons":["What Dashboards do","Accessing Dashboards","Wrap-up"]},
+      {"module":"Build a Dashboard","lessons":["Plan your Dashboard","Create or Duplicate a Dashboard","Add Widgets","Choose Single-Source vs Multi-Source","Design for Speed and Clarity","Refine and Optimize","Wrap-up"]},
+      {"module":"Operationalize: Share, Report, Maintain","lessons":["Sharing Dashboards for Collaboration","Editing and Removing Dashboards","Scheduling Dashboards as Reports","Wrap-up"]},
+      {"module":"Summary","lessons":["Key Takeaways"]}
+    ],
+    "FALCON 107": [
+      {"module":"Firewall Management Fundamentals","lessons":["Welcome to Falcon Firewall Management","Endpoint Security and Firewalls","Firewall Management Across Different Systems","How Falcon Firewall Management Works","Wrap-up"]},
+      {"module":"Firewall Rule Creation","lessons":["Understanding Policies, Rules, and Rule Groups","Firewall Policy Deployment Workflow","Exploring the Activity Page","Exploring Network Locations","Wrap-up"]}
+    ],
+    "SOAR 100": [
+      {"module":"Introduction to Falcon Fusion SOAR","lessons":["Introduction to Falcon Fusion SOAR","Getting started quickly with Falcon Fusion SOAR","Basic workflow elements: Triggers","Basic workflow elements: Conditions","Basic workflow elements: Actions","Advanced workflow elements","Knowledge Check","Summary"]},
+      {"module":"Fusion SOAR Workflow Examples","lessons":["Falcon Fusion SOAR workflow examples","Example 1: Workflow execution","Example 2: Audit event","Example 3: New incident","Example 4: Looping with event search","Example 5: Nightly Jira ticket","Example 6: Requesting human input","Example 7: Contain a device","Example 8: Write to log repo","Summary"]},
+      {"module":"Monitor Workflows","lessons":["SOAR dashboard","All Workflows","Execution Log","Audit Log","Knowledge Check","Summary"]},
+      {"module":"Build a Falcon Fusion SOAR Workflow","lessons":["Falcon Fusion SOAR workflow examples","Scenario 1: Create a simple event workflow","Scenario 2: Add a sequential action to a workflow","Scenario 3: Add a loop to a workflow","Scenario 4: Add else if conditions and else actions to a workflow","Scenario 5: Manage an action's output with the form-based schema builder","Scenario 6: Create an On demand workflow","Summary"]}
+    ],
+    "FALCON 160": [
+      {"module":"Introduction to Falcon for Mobile","lessons":[["Why Falcon for Mobile?","Dispositivos móveis também carregam riscos de rede, sistema e aplicativos. O curso posiciona Falcon for Mobile como visibilidade e proteção para Android e iOS, mantendo separação entre sinais de segurança e conteúdo pessoal."],["What is Falcon for Mobile?","O serviço fornece telemetria de segurança e avaliação de postura do dispositivo móvel. O administrador acompanha sinais úteis para detectar risco sem tratar o aparelho como um endpoint de desktop."],["What Data does Falcon for Mobile Collect?","A aula distingue eventos de segurança — como rede, versão e postura do sistema, instalação de aplicativos e informações operacionais do dispositivo — de mensagens, e-mails e outras comunicações pessoais, que não são o objetivo da coleta."],["Supported Deployment Models","A implantação pode usar dispositivos gerenciados por MDM ou modelos BYOD, conforme a política da organização. A escolha do fluxo de inscrição e das capacidades disponíveis depende da plataforma móvel e do nível de gerenciamento."],"Wrap-up"]},
+      {"module":"Planning & Deploying Falcon for Mobile","lessons":[["Preparing for Deployment","Antes da instalação, a equipe define escopo, público, comunicação e requisitos de cada plataforma. Um piloto ajuda a verificar que a inscrição e os controles de segurança funcionam no modelo de gerenciamento escolhido."],["Selecting an Enrollment Strategy","A estratégia de inscrição deve corresponder ao uso de MDM ou BYOD e à forma como a organização distribui instruções aos usuários. O curso apresenta opções como inscrição assistida por código QR, com atenção às diferenças entre iOS e Android."],["Preparing for Rollout","O rollout precisa de grupos de teste, instruções claras e um modo de acompanhar dispositivos que não concluíram a inscrição. A expansão só faz sentido depois de confirmar conectividade e visibilidade no piloto."],["Deploying to Devices","A instalação efetiva é validada no console, conferindo registro do dispositivo e dados de segurança esperados. O fluxo varia segundo sistema operacional e método de gerenciamento."],"Wrap-up"]}
+    ]
+  }
+}
